@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category": "Derecho Bancario",
+    "date": "16 de julio 2025",
+    "title": "Reforma a la Ley Antilavado en México",
+    "content": "El día de ayer, 16 de julio de 2025, se publicó en el Diario Oficial de la Federación una reforma de gran alcance a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), mejor conocida como Ley Antilavado, así como al artículo 400 Bis del Código Penal Federal.",
+    "image": "/news/images/news-01.jpg",
+    "pdfUrl": "/news/pdfs/MiraiAlertLeyAntilavadoJul25.pdf"
+  },
+  {
+    "id": 2,
+    "category": "Derecho Corporativo",
+    "date": "15 de julio 2025",
+    "title": "Nuevas Regulaciones en Fusiones y Adquisiciones",
+    "content": "La Comisión Federal de Competencia Económica ha emitido nuevas directrices para los procesos de fusiones y adquisiciones que entrarán en vigor el próximo trimestre. Estas modificaciones buscan fortalecer la transparencia y competencia en el mercado mexicano.",
+    "image": "/news/images/news-02.jpg",
+    "pdfUrl": "/news/pdfs/MiraiAlertLeyAntilavadoJul25.pdf"
+  },
+  {
+    "id": 3,
+    "category": "Fintech",
+    "date": "14 de julio 2025",
+    "title": "Marco Regulatorio para Criptomonedas en México",
+    "content": "El Banco de México presenta una propuesta de marco regulatorio integral para el uso de activos virtuales y criptomonedas. Esta iniciativa marca un hito importante en la adopción de tecnologías financieras digitales en el país.",
+    "image": "/news/images/news-03.jpg",
+    "pdfUrl": "/news/pdfs/MiraiAlertLeyAntilavadoJul25.pdf"
+  },
+  {
+    "id": 4,
+    "category": "Derecho Laboral",
+    "date": "13 de julio 2025",
+    "title": "Reformas a la Ley Federal del Trabajo 2025",
+    "content": "Se aprueban importantes modificaciones a la Ley Federal del Trabajo que incluyen nuevas modalidades de trabajo híbrido, protección de datos laborales y fortalecimiento de los derechos de los trabajadores en la era digital.",
+    "image": "/news/images/news-04.jpg",
+    "pdfUrl": "/news/pdfs/MiraiAlertLeyAntilavadoJul25.pdf"
+  }
+]

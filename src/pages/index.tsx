@@ -6,6 +6,7 @@ import StatsSection from '@/components/StatsSection';
 import AboutUsSection from '@/components/AboutUsSection';
 import ServicesSection from '@/components/ServicesSection';
 import TeamSection from '@/components/TeamSection';
+import NewsSection from '@/components/NewsSection';
 
 export default function Home() {
   return (
@@ -43,6 +44,9 @@ export default function Home() {
 
         {/* Team Section */}
         <TeamSection />
+
+        {/* News Section */}
+        <NewsSection />
       </div>
     </>
   );
