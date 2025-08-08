@@ -7,6 +7,9 @@ import AboutUsSection from '@/components/AboutUsSection';
 import ServicesSection from '@/components/ServicesSection';
 import TeamSection from '@/components/TeamSection';
 import NewsSection from '@/components/NewsSection';
+import ContactSection from '@/components/ContactSection';
+import LocationSection from '@/components/LocationSection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -15,7 +18,7 @@ export default function Home() {
         <title>MIRAI - Página Principal</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="MIRAI - Sitio web oficial" />
-        <meta property="og:title" content="MIRAI - Página Principal" />
+        <meta property="og:title" content="MIRAI - Firma de abogados en México" />
         <meta property="og:description" content="MIRAI - Sitio web oficial" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://mirai.com" />
@@ -47,6 +50,15 @@ export default function Home() {
 
         {/* News Section */}
         <NewsSection />
+
+        {/* Contact Section */}
+        <ContactSection />
+
+        {/* Location Section */}
+        <LocationSection />
+
+        {/* Footer */}
+        <Footer />
       </div>
     </>
   );
