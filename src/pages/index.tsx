@@ -47,29 +47,39 @@ export default function Home() {
         </AnimatedSection>
 
         {/* About Us Section */}
-        <AnimatedSection animation="fadeUp" delay={100}>
-          <AboutUsSection />
-        </AnimatedSection>
+        <section id="quienes-somos">
+          <AnimatedSection animation="fadeUp" delay={100}>
+            <AboutUsSection />
+          </AnimatedSection>
+        </section>
 
         {/* Services Section */}
-        <AnimatedSection animation="fadeUp" delay={100}>
-          <ServicesSection />
-        </AnimatedSection>
+        <section id="practicas">
+          <AnimatedSection animation="fadeUp" delay={100}>
+            <ServicesSection />
+          </AnimatedSection>
+        </section>
 
         {/* Team Section */}
-        <AnimatedSection animation="fadeUp" delay={100}>
-          <TeamSection />
-        </AnimatedSection>
+        <section id="equipo">
+          <AnimatedSection animation="fadeUp" delay={100}>
+            <TeamSection />
+          </AnimatedSection>
+        </section>
 
         {/* News Section */}
-        <AnimatedSection animation="fadeUp" delay={100}>
-          <NewsSection />
-        </AnimatedSection>
+        <section id="noticias">
+          <AnimatedSection animation="fadeUp" delay={100}>
+            <NewsSection />
+          </AnimatedSection>
+        </section>
 
         {/* Contact Section */}
-        <AnimatedSection animation="fadeUp" delay={100}>
-          <ContactSection />
-        </AnimatedSection>
+        <section id="contacto">
+          <AnimatedSection animation="fadeUp" delay={100}>
+            <ContactSection />
+          </AnimatedSection>
+        </section>
 
         {/* Location Section */}
         <AnimatedSection animation="fadeUp" delay={100}>

@@ -123,62 +123,62 @@
   ],
   "industrias": [
     {
-      "iconPath": "/icons/practicas/001.svg",
+      "iconPath": "/icons/industrias/001.svg",
       "title": "**Alimentos y Bebidas**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/002.svg",
+      "iconPath": "/icons/industrias/002.svg",
       "title": "**Farmacéutica y Ciencias de la Salud**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/003.svg",
+      "iconPath": "/icons/industrias/003.svg",
       "title": "**Real Estate y Desarrollo Inmobiliario**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/004.svg",
+      "iconPath": "/icons/industrias/004.svg",
       "title": "**Automotriz y Manufactura Avanzada**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/005.svg",
+      "iconPath": "/icons/industrias/005.svg",
       "title": "**Fintech, Bancario y Financiero**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/006.svg",
+      "iconPath": "/icons/industrias/006.svg",
       "title": "**Seguros y Servicios Financieros**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/007.svg",
+      "iconPath": "/icons/industrias/007.svg",
       "title": "**Agroindustria y Recursos Naturales**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/008.svg",
+      "iconPath": "/icons/industrias/008.svg",
       "title": "**Infraestructura y Energía**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/009.svg",
+      "iconPath": "/icons/industrias/009.svg",
       "title": "**Tecnología y Plataformas Digitales**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/010.svg",
+      "iconPath": "/icons/industrias/010.svg",
       "title": "**Consumo y Bienes de Consumo Empacados (FMCG)**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/011.svg",
+      "iconPath": "/icons/industrias/011.svg",
       "title": "**ONGs, Fundaciones y Sector Cultural**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     },
     {
-      "iconPath": "/icons/practicas/012.svg",
+      "iconPath": "/icons/industrias/012.svg",
       "title": "**Turismo y Hospitalidad**",
       "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
     }

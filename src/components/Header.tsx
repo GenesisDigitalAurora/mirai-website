@@ -9,11 +9,31 @@ export default function Header() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    
+    const targetId = href.replace('#', '');
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+      const headerHeight = 80; // Altura aproximada del header fijo
+      const targetPosition = targetElement.offsetTop - headerHeight;
+      
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      });
+    }
+    
+    // Cerrar menú móvil si está abierto
+    setIsMobileMenuOpen(false);
+  };
+
   // Enlaces de navegación izquierda
   const leftNavLinks = [
     { name: '¿Quiénes somos?', href: '#quienes-somos' },
     { name: 'Prácticas', href: '#practicas' },
-    { name: 'Industrias', href: '#industrias' }
+    { name: 'Industrias', href: '#practicas' } // Industrias también va a Prácticas/Servicios
   ];
 
   // Enlaces de navegación derecha
@@ -37,7 +57,8 @@ export default function Header() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                onClick={(e) => handleSmoothScroll(e, link.href)}
+                className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
               >
                 {link.name}
               </a>
@@ -64,7 +85,8 @@ export default function Header() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                onClick={(e) => handleSmoothScroll(e, link.href)}
+                className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
               >
                 {link.name}
               </a>
@@ -144,8 +166,8 @@ export default function Header() {
                   <a
                     key={link.name}
                     href={link.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-primary-200 hover:bg-primary-700 transition-colors duration-200"
-                    onClick={() => setIsMobileMenuOpen(false)}
+                    onClick={(e) => handleSmoothScroll(e, link.href)}
+                    className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-primary-200 hover:bg-primary-700 transition-colors duration-200 cursor-pointer"
                   >
                     {link.name}
                   </a>
@@ -161,8 +183,8 @@ export default function Header() {
                   <a
                     key={link.name}
                     href={link.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-primary-200 hover:bg-primary-700 transition-colors duration-200"
-                    onClick={() => setIsMobileMenuOpen(false)}
+                    onClick={(e) => handleSmoothScroll(e, link.href)}
+                    className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-primary-200 hover:bg-primary-700 transition-colors duration-200 cursor-pointer"
                   >
                     {link.name}
                   </a>
