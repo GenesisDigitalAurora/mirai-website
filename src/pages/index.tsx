@@ -10,6 +10,7 @@ import NewsSection from '@/components/NewsSection';
 import ContactSection from '@/components/ContactSection';
 import LocationSection from '@/components/LocationSection';
 import Footer from '@/components/Footer';
+import AnimatedSection from '@/components/AnimatedSection';
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
       <Head>
         <title>MIRAI - Página Principal</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="MIRAI - Sitio web oficial" />
+        <meta name="description" content="MIRAI -  Firma de abogados en México" />
         <meta property="og:title" content="MIRAI - Firma de abogados en México" />
-        <meta property="og:description" content="MIRAI - Sitio web oficial" />
+        <meta property="og:description" content="MIRAI -  Firma de abogados en México" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://mirai.com" />
       </Head>
@@ -30,32 +31,50 @@ export default function Home() {
 
         {/* Video Banner - 80% height */}
         <main className="relative pt-16 md:pt-20">
-          <VideoBanner />
+          <AnimatedSection animation="fade" duration={1000}>
+            <VideoBanner />
+          </AnimatedSection>
         </main>
 
         {/* Introduction Section */}
-        <IntroSection />
+        <AnimatedSection animation="fadeUp" delay={100}>
+          <IntroSection />
+        </AnimatedSection>
 
         {/* Statistics Section */}
-        <StatsSection />
+        <AnimatedSection animation="fadeUp" delay={150}>
+          <StatsSection />
+        </AnimatedSection>
 
         {/* About Us Section */}
-        <AboutUsSection />
+        <AnimatedSection animation="fadeUp" delay={100}>
+          <AboutUsSection />
+        </AnimatedSection>
 
         {/* Services Section */}
-        <ServicesSection />
+        <AnimatedSection animation="fadeUp" delay={100}>
+          <ServicesSection />
+        </AnimatedSection>
 
         {/* Team Section */}
-        <TeamSection />
+        <AnimatedSection animation="fadeUp" delay={100}>
+          <TeamSection />
+        </AnimatedSection>
 
         {/* News Section */}
-        <NewsSection />
+        <AnimatedSection animation="fadeUp" delay={100}>
+          <NewsSection />
+        </AnimatedSection>
 
         {/* Contact Section */}
-        <ContactSection />
+        <AnimatedSection animation="fadeUp" delay={100}>
+          <ContactSection />
+        </AnimatedSection>
 
         {/* Location Section */}
-        <LocationSection />
+        <AnimatedSection animation="fadeUp" delay={100}>
+          <LocationSection />
+        </AnimatedSection>
 
         {/* Footer */}
         <Footer />
