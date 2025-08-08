@@ -1,0 +1,70 @@
+{
+  "teamMembers": [
+    {
+      "id": 1,
+      "photo": "/teammembers/01.jpg",
+      "name": "Alexandra Carbajal",
+      "position": "Socia"
+    },
+    {
+      "id": 2,
+      "photo": "/teammembers/02.jpg",
+      "name": "Luis Cuevas",
+      "position": "Socio"
+    },
+    {
+      "id": 3,
+      "photo": "/teammembers/03.jpg",
+      "name": "Israel Pérez",
+      "position": "Socio"
+    },
+    {
+      "id": 4,
+      "photo": "/teammembers/04.jpg",
+      "name": "Marco A. Pérez",
+      "position": "Socio"
+    },
+    {
+      "id": 5,
+      "photo": "/teammembers/05.jpg",
+      "name": "Marco Zavaleta",
+      "position": "Socio"
+    },
+    {
+      "id": 6,
+      "photo": "/teammembers/06.jpg",
+      "name": "Israel Alfaro",
+      "position": "Socio"
+    },
+    {
+      "id": 7,
+      "photo": "/teammembers/07.jpg",
+      "name": "Juan Carlos Peraza",
+      "position": "Socio"
+    },
+    {
+      "id": 8,
+      "photo": "/teammembers/08.jpg",
+      "name": "Arturo Ávalos",
+      "position": "Counsel"
+    },
+    {
+      "id": 9,
+      "photo": "/teammembers/09.jpg",
+      "name": "Héctor Guerrero",
+      "position": "Counsel"
+    },
+    {
+      "id": 10,
+      "photo": "/teammembers/10.jpg",
+      "name": "Karen Hernández",
+      "position": "Counsel"
+    },
+    {
+      "id": 11,
+      "photo": "/teammembers/11.jpg",
+      "name": "Edgar Pilar",
+      "position": "Counsel"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "practicas": [
+    {
+      "iconPath": "/icons/practicas/001.svg",
+      "title": "**ASG / ESG** (Ambiental, Social y de Gobernanza)",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/002.svg",
+      "title": "**Derecho Bancario, Bursátil y Financiero**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/003.svg",
+      "title": "**Derecho Laboral**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/004.svg",
+      "title": "**LegalTech y RegTech**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/005.svg",
+      "title": "**Comercio Exterior**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/006.svg",
+      "title": "**Derecho Corporativo**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/007.svg",
+      "title": "**Derecho Migratorio**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/008.svg",
+      "title": "**Life Science y Derecho Regulatorio**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/009.svg",
+      "title": "**Contractual**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/010.svg",
+      "title": "**Derechos del Consumidor (PROFECO y CONDUSEF)**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/011.svg",
+      "title": "**Derecho Patrimonial**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/012.svg",
+      "title": "**Litigio Civil y Mercantil**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/013.svg",
+      "title": "**Derecho Administrativo y Constitucional**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/014.svg",
+      "title": "**Derecho Familiar**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/015.svg",
+      "title": "**Entretenimiento, deportes e industrias creativas**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/016.svg",
+      "title": "**Propiedad Intelectual**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/017.svg",
+      "title": "**Derecho Agrario**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/018.svg",
+      "title": "**Derecho Fiscal**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/019.svg",
+      "title": "**Ética y Compliance**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/001.svg",
+      "title": "**Corresponsalías**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/001.svg",
+      "title": "**Derecho Ambiental**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/001.svg",
+      "title": "**Derecho Inmobiliario**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/001.svg",
+      "title": "**Fintech**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/001.svg",
+      "title": "**Traducciones Legales**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    }
+  ],
+  "industrias": [
+    {
+      "iconPath": "/icons/practicas/001.svg",
+      "title": "**Alimentos y Bebidas**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/002.svg",
+      "title": "**Farmacéutica y Ciencias de la Salud**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/003.svg",
+      "title": "**Real Estate y Desarrollo Inmobiliario**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/004.svg",
+      "title": "**Automotriz y Manufactura Avanzada**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/005.svg",
+      "title": "**Fintech, Bancario y Financiero**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/006.svg",
+      "title": "**Seguros y Servicios Financieros**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/007.svg",
+      "title": "**Agroindustria y Recursos Naturales**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/008.svg",
+      "title": "**Infraestructura y Energía**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/009.svg",
+      "title": "**Tecnología y Plataformas Digitales**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/010.svg",
+      "title": "**Consumo y Bienes de Consumo Empacados (FMCG)**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/011.svg",
+      "title": "**ONGs, Fundaciones y Sector Cultural**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    },
+    {
+      "iconPath": "/icons/practicas/012.svg",
+      "title": "**Turismo y Hospitalidad**",
+      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    }
+  ]
+}
