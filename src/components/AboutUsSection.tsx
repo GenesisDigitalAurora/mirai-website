@@ -51,9 +51,7 @@ export default function AboutUsSection() {
                 color: '#000000'
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet placerat elit, ut rhoncus nisl. Aenean vitae placerat augue, eget 
-              tincidunt turpis. Cras elementum, urna id convallis commodo, magna nunc maximus urna, in porta leo quam ac ipsum. Proin sodales nisl sed 
-              ante varius, ut fermentum mi condimentum.
+              Mirai Abogados es un despacho jurídico innovador que combina experiencia legal con tecnología de vanguardia para ofrecer soluciones integrales y personalizadas. Con un enfoque en el cumplimiento normativo, sostenibilidad y ética, acompañamos a nuestros clientes en sectores como fintech, energía, agroindustria y más, brindando certeza jurídica y estrategias que impulsan el crecimiento sostenible en un entorno global.
             </p>
 
             <p 
@@ -67,9 +65,7 @@ export default function AboutUsSection() {
                 color: '#000000'
               }}
             >
-              Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed 
-              neque est, viverra non ultrices sed, suscipit in lectus. Cras pretium sagittis dui, vel consectetur libero tempor et. Nulla varius elit id risus 
-              malesuada mollis.
+              Nuestra misión es transformar la práctica legal mediante servicios proactivos y especializados, desde la estructuración de negocios hasta la defensa en controversias. En Mirai, integramos herramientas LegalTech y RegTech para optimizar procesos, garantizando eficiencia, transparencia y resultados que generan valor para empresas, ONGs e industrias creativas en México y el mundo.
             </p>
           </div>
         </div>

@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import CardService from './CardService';
+import AnimatedSection from './AnimatedSection';
 import servicesData from '@/data/services.json';
 
 type ServiceType = 'practicas' | 'industrias';
@@ -14,8 +15,30 @@ interface ServiceData {
 export default function ServicesSection() {
   const [activeTab, setActiveTab] = useState<ServiceType>('practicas');
 
-  // Mostrar solo las primeras 8 cards (2 filas de 4)
-  const currentServices = (servicesData[activeTab] as ServiceData[]).slice(0, 8);
+  // Escuchar cambios en el hash de la URL para cambiar la pestaña
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash === '#practicas-tab') {
+        setActiveTab('practicas');
+      } else if (hash === '#industrias-tab') {
+        setActiveTab('industrias');
+      }
+    };
+
+    // Verificar el hash inicial
+    handleHashChange();
+
+    // Escuchar cambios en el hash
+    window.addEventListener('hashchange', handleHashChange);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
+
+  // Mostrar todas las cards disponibles
+  const currentServices = servicesData[activeTab] as ServiceData[];
   
   // Color dinámico según la tab activa
   const titleColor = activeTab === 'practicas' ? '#40B637' : '#921B95';
@@ -97,18 +120,33 @@ export default function ServicesSection() {
           </div>
         </div>
 
-        {/* Grid de Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {currentServices.map((service, index) => (
-            <CardService
-              key={`${activeTab}-${index}`}
-              iconPath={service.iconPath}
-              title={service.title}
-              subtitle={service.subtitle}
-              content={service.content}
-              titleColor={titleColor}
-            />
-          ))}
+        {/* Grid de Cards con Animaciones por Fila */}
+        <div className="space-y-6">
+          {Array.from({ length: Math.ceil(currentServices.length / 4) }).map((_, rowIndex) => {
+            const rowServices = currentServices.slice(rowIndex * 4, (rowIndex + 1) * 4);
+            
+            return (
+              <AnimatedSection 
+                key={`${activeTab}-row-${rowIndex}`}
+                animation="fadeUp" 
+                delay={rowIndex * 200}
+                duration={600}
+              >
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {rowServices.map((service, cardIndex) => (
+                    <CardService
+                      key={`${activeTab}-${rowIndex * 4 + cardIndex}`}
+                      iconPath={service.iconPath}
+                      title={service.title}
+                      subtitle={service.subtitle}
+                      content={service.content}
+                      titleColor={titleColor}
+                    />
+                  ))}
+                </div>
+              </AnimatedSection>
+            );
+          })}
         </div>
       </div>
     </section>

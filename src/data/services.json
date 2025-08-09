@@ -1,186 +1,189 @@
 {
   "practicas": [
     {
-      "iconPath": "/icons/practicas/001.svg",
-      "title": "**ASG / ESG** (Ambiental, Social y de Gobernanza)",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    "iconPath": "/icons/practicas/001.svg",
+    "title": "**ASG / ESG**",
+    "subtitle": "(Ambiental, Social y de Gobernanza)",
+    "content": "Asesoría en integración de criterios ESG: responsabilidad ambiental, social y gobernanza. Incluye políticas, capacitación y alineación con estándares internacionales para modelos de negocio sostenibles."
     },
     {
       "iconPath": "/icons/practicas/002.svg",
       "title": "**Derecho Bancario, Bursátil y Financiero**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "content": "Creación de productos financieros, licencias, cumplimiento normativo y prevención de lavado. Estructuración de financiamientos y controles internos para instituciones."
     },
     {
       "iconPath": "/icons/practicas/003.svg",
       "title": "**Derecho Laboral**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "content": "Gestión de relaciones laborales, cumplimiento IMSS/INFONAVIT y litigios. Estrategias para reducir riesgos y mejorar clima laboral."
     },
     {
       "iconPath": "/icons/practicas/004.svg",
-      "title": "**LegalTech y RegTech**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Life Science & Derecho Regulatorio**",
+      "content": "Asesoría sanitaria para farmacéuticas y salud: registros COFEPRIS, cumplimiento y acceso a mercados."
     },
     {
-      "iconPath": "/icons/practicas/005.svg",
-      "title": "**Comercio Exterior**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    "iconPath": "/icons/practicas/005.svg",
+    "title": "**Comercio Exterior**",
+    "content": "Estrategias legales para comercio global: cumplimiento aduanero, defensa en controversias, optimización con tratados como T-MEC, IMMEX y PROSEC. Clasificación arancelaria y auditorías."
     },
     {
       "iconPath": "/icons/practicas/006.svg",
       "title": "**Derecho Corporativo**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "content": "Estructuración societaria, fusiones, gobernanza y cumplimiento. Soporte en inversiones, due diligence y estrategias para expansión empresarial."
     },
     {
       "iconPath": "/icons/practicas/007.svg",
       "title": "**Derecho Migratorio**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "content": "Trámites para permisos de trabajo y estancia. Cumplimiento corporativo y movilidad internacional ante INM."
     },
     {
       "iconPath": "/icons/practicas/008.svg",
-      "title": "**Life Science y Derecho Regulatorio**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
+      "title": "**Fintech**",
+      "content": "Asesoría regulatoria para fintech: licenciamiento, cumplimiento y productos innovadores. Soporte en inversión y defensa."
+      },
     {
       "iconPath": "/icons/practicas/009.svg",
-      "title": "**Contractual**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Litigio y Consultoría en Materia Civil y Mercantil**",
+      "content": "Redacción de contratos y resolución de controversias civiles/mercantiles. Representación judicial estratégica."
     },
     {
       "iconPath": "/icons/practicas/010.svg",
-      "title": "**Derechos del Consumidor (PROFECO y CONDUSEF)**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Contractual**",
+      "content": "Asesoría en diseño y negociación de contratos comerciales y financieros. Blindaje contra riesgos, autorización CNBV y estructuración para maximizar oportunidades y rentabilidad."
     },
     {
       "iconPath": "/icons/practicas/011.svg",
-      "title": "**Derecho Patrimonial**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Derechos del Consumidor**",
+      "subtitle": "(PROFECO y CONDUSEF)",
+      "content": "Asesoría en cumplimiento LFPC, contratos de adhesión y representación ante PROFECO/CONDUSEF. Prevención de conflictos y litigios colectivos."
     },
     {
       "iconPath": "/icons/practicas/012.svg",
-      "title": "**Litigio Civil y Mercantil**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Derecho Patrimonial**",
+      "content": "Protección y transmisión de patrimonio: testamentos, fideicomisos y sucesiones. Planificación para evitar conflictos."
     },
     {
       "iconPath": "/icons/practicas/013.svg",
-      "title": "**Derecho Administrativo y Constitucional**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Propiedad Intelectual**",
+      "content": "Protección de marcas, patentes y derechos de autor. Administración y defensa de activos intangibles."
     },
     {
-      "iconPath": "/icons/practicas/014.svg",
-      "title": "**Derecho Familiar**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    "iconPath": "/icons/practicas/014.svg",
+    "title": "**Derecho Administrativo y Constitucional**",
+    "content": "Representación ante autoridades, defensa en juicios de nulidad y amparo. Asesoría en licitaciones, permisos y procedimientos sancionadores con enfoque proactivo."
     },
     {
       "iconPath": "/icons/practicas/015.svg",
-      "title": "**Entretenimiento, deportes e industrias creativas**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Derecho Familiar**",
+      "content": "Soluciones en divorcio, custodia, pensión y adopción. Mediación y defensa judicial con enfoque sensible y duradero."
     },
     {
       "iconPath": "/icons/practicas/016.svg",
-      "title": "**Propiedad Intelectual**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Entretenimiento, Deportes e Industrias Creativas**",
+      "content": "Protección de derechos y contratos para artistas y deportistas. Explotación de activos para maximizar valor económico."
     },
     {
       "iconPath": "/icons/practicas/017.svg",
-      "title": "**Derecho Agrario**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Corresponsalías**",
+      "content": "Red global de corresponsales para servicios legales en México e internacional. Coordinación y supervisión experta."
     },
     {
       "iconPath": "/icons/practicas/018.svg",
-      "title": "**Derecho Fiscal**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Derecho Agrario**",
+      "content": "Asesoría en regulación agraria, derechos hídricos, permisos ambientales y exportación. Gestión de tenencia de tierra, ejidos y certificaciones de sustentabilidad."
+    },
+
+    {
+    "iconPath": "/icons/practicas/019.svg",
+    "title": "**Derecho Fiscal**",
+    "content": "Planeación tributaria, cumplimiento y defensa ante SAT. Estrategias para reducir impuestos y manejo de auditorías fiscales."
     },
     {
-      "iconPath": "/icons/practicas/019.svg",
-      "title": "**Ética y Compliance**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+    "iconPath": "/icons/practicas/020.svg",
+    "title": "**Ética y Compliance**",
+    "content": "Sistemas de cumplimiento, códigos éticos y auditorías. Prevención de riesgos y gestión de crisis."
     },
     {
-      "iconPath": "/icons/practicas/001.svg",
-      "title": "**Corresponsalías**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/practicas/001.svg",
-      "title": "**Derecho Ambiental**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/practicas/001.svg",
-      "title": "**Derecho Inmobiliario**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/practicas/001.svg",
-      "title": "**Fintech**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/practicas/001.svg",
+      "iconPath": "/icons/practicas/021.svg",
       "title": "**Traducciones Legales**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "content": "Traducciones certificadas inglés-español por peritos. Precisión en terminología jurídica para transacciones globales."
+    },
+    {
+      "iconPath": "/icons/practicas/022.svg",
+      "title": "**Derecho Ambiental**",
+      "content": "Gestión sostenible y cumplimiento normativo. Auditorías, permisos ambientales, políticas y integración de criterios para ventaja competitiva y reputación."
+    },
+    {
+      "iconPath": "/icons/practicas/023.svg",
+      "title": "**Derecho Inmobiliario**",
+      "content": "Apoyo en proyectos inmobiliarios: due diligence, permisos y contratos. Certeza jurídica para desarrolladores e inversionistas."
+      },
+    {
+    "iconPath": "/icons/practicas/024.svg",
+    "title": "**LegalTech**",
+    "content": "Plataformas para automatización legal y cumplimiento. Soluciones RegTech para monitoreo normativo y eficiencia."
     }
   ],
   "industrias": [
     {
       "iconPath": "/icons/industrias/001.svg",
       "title": "**Alimentos y Bebidas**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/industrias/002.svg",
-      "title": "**Farmacéutica y Ciencias de la Salud**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/industrias/003.svg",
-      "title": "**Real Estate y Desarrollo Inmobiliario**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "content": "Servicios legales en cumplimiento, asesoría comercial, publicidad, certificaciones, defensa administrativa y protección de reputación en la industria de alimentos y bebidas."
     },
     {
       "iconPath": "/icons/industrias/004.svg",
-      "title": "**Automotriz y Manufactura Avanzada**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/industrias/005.svg",
-      "title": "**Fintech, Bancario y Financiero**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/industrias/006.svg",
-      "title": "**Seguros y Servicios Financieros**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Automotriz**",
+      "content": "Servicios legales en cumplimiento, certificaciones, auditorías, contratos con proveedores y soporte para cadenas de producción global en la industria automotriz."
     },
     {
       "iconPath": "/icons/industrias/007.svg",
-      "title": "**Agroindustria y Recursos Naturales**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/industrias/008.svg",
-      "title": "**Infraestructura y Energía**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
-    },
-    {
-      "iconPath": "/icons/industrias/009.svg",
-      "title": "**Tecnología y Plataformas Digitales**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Agroindustria**",
+      "content": "Asesoría legal en comercio internacional, cumplimiento, inversiones rurales, cumplimiento ambiental, derechos de agua y certificaciones de sostenibilidad en agroindustria."
     },
     {
       "iconPath": "/icons/industrias/010.svg",
-      "title": "**Consumo y Bienes de Consumo Empacados (FMCG)**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**FMCG**",
+      "content": "Servicios legales en cumplimiento regulatorio, sostenibilidad, ética, comunicación, prevención de contingencias y protección de reputación en la industria FMCG."
+    },
+    {
+      "iconPath": "/icons/industrias/002.svg",
+      "title": "**Farmacéutica**",
+      "content": "Servicios legales en cumplimiento regulatorio, gestión COFEPRIS y protección de innovación en la industria farmacéutica."
+    },
+    {
+      "iconPath": "/icons/industrias/005.svg",
+      "title": "**Fintech y Bancos**",
+      "content": "Servicios legales en regulación, cumplimiento, interacción con reguladores, estructuración digital y marcos legales escalables para innovación en fintech y banca."
+    },
+    {
+      "iconPath": "/icons/industrias/008.svg",
+      "title": "**Energía**",
+      "content": "Asesoría legal integral para proyectos energéticos, incluyendo cumplimiento ambiental, adherencia regulatoria y diseño de estructuras legales eficientes."
     },
     {
       "iconPath": "/icons/industrias/011.svg",
-      "title": "**ONGs, Fundaciones y Sector Cultural**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**ONGs**",
+      "content": "Servicios legales para ONGs en constitución, financiamiento ético, cumplimiento fiscal, transparencia y marcos legales para impacto social."
+    },
+    {
+      "iconPath": "/icons/industrias/003.svg",
+      "title": "**Real Estate**",
+      "content": "Servicios legales en adquisición de propiedades, gestión regulatoria, due diligence y regímenes de condominios en el sector inmobiliario."
+    },
+    {
+      "iconPath": "/icons/industrias/006.svg",
+      "title": "**Seguros**",
+      "content": "Servicios legales en regulación, gestión de riesgos y protección al cliente en el sector de seguros y servicios financieros."
+    },
+    {
+      "iconPath": "/icons/industrias/009.svg",
+      "title": "**Tecnología**",
+      "content": "Servicios legales en privacidad, propiedad intelectual, términos de uso, desarrollo contractual, ciberseguridad y marcos legales escalables en tecnología."
     },
     {
       "iconPath": "/icons/industrias/012.svg",
-      "title": "**Turismo y Hospitalidad**",
-      "content": "Duis ullamcorper iaculis libero, in maximus sem scelerisque vel. Sed consequat lobortis malesuada. Sed pharetra scelerisque diam a varius. Sed neque est, viverra non ultrices sed, suscipit in lectus."
+      "title": "**Turismo**",
+      "content": "Servicios legales en marcos regulatorios, protección al consumidor y gestión de contratos para operaciones de hospitalidad en turismo."
     }
   ]
 }

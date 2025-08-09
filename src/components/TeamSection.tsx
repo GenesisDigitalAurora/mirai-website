@@ -1,4 +1,5 @@
 import CardMember from './CardMember';
+import AnimatedSection from './AnimatedSection';
 import teamData from '@/data/team.json';
 
 interface TeamMember {
@@ -62,17 +63,32 @@ export default function TeamSection() {
           </p>
         </div>
 
-        {/* Grid de Miembros del Equipo - 4 por fila, 3 filas */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {teamMembers.map((member) => (
-            <CardMember
-              key={member.id}
-              photo={member.photo}
-              name={member.name}
-              position={member.position}
-              onClick={() => console.log(`Ver perfil de ${member.name}`)}
-            />
-          ))}
+        {/* Grid de Miembros del Equipo con Animaciones por Fila */}
+        <div className="space-y-6">
+          {Array.from({ length: Math.ceil(teamMembers.length / 4) }).map((_, rowIndex) => {
+            const rowMembers = teamMembers.slice(rowIndex * 4, (rowIndex + 1) * 4);
+            
+            return (
+              <AnimatedSection 
+                key={`team-row-${rowIndex}`}
+                animation="fadeUp" 
+                delay={rowIndex * 200}
+                duration={600}
+              >
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {rowMembers.map((member) => (
+                    <CardMember
+                      key={member.id}
+                      photo={member.photo}
+                      name={member.name}
+                      position={member.position}
+                      onClick={() => console.log(`Ver perfil de ${member.name}`)}
+                    />
+                  ))}
+                </div>
+              </AnimatedSection>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -22,7 +22,6 @@ export default function VideoBanner() {
           className="w-full h-full object-cover"
           autoPlay
           muted
-          loop
           playsInline
           controls={false}
           preload="auto"
@@ -45,7 +44,7 @@ export default function VideoBanner() {
             console.log('Video reproduciéndose');
           }}
         >
-          <source src="/MIRAI.mp4" type="video/mp4" />
+          <source src="/Mirai_video_v2.mp4" type="video/mp4" />
           Tu navegador no soporta videos HTML5.
         </video>
       </div>

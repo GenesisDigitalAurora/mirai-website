@@ -30,7 +30,7 @@ export default function Home() {
         <Header />
 
         {/* Video Banner - 80% height */}
-        <main className="relative pt-16 md:pt-20">
+        <main className="relative pt-16 md:pt-17">
           <AnimatedSection animation="fade" duration={1000}>
             <VideoBanner />
           </AnimatedSection>

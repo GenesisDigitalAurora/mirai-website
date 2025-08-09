@@ -12,17 +12,36 @@ export default function Header() {
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     
-    const targetId = href.replace('#', '');
-    const targetElement = document.getElementById(targetId);
-    
-    if (targetElement) {
-      const headerHeight = 80; // Altura aproximada del header fijo
-      const targetPosition = targetElement.offsetTop - headerHeight;
+    // Casos especiales para pestañas de servicios
+    if (href === '#practicas-tab' || href === '#industrias-tab') {
+      // Primero cambiar el hash para activar la pestaña
+      window.location.hash = href;
       
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-      });
+      // Luego hacer scroll a la sección de servicios
+      const targetElement = document.getElementById('practicas');
+      if (targetElement) {
+        const headerHeight = 80;
+        const targetPosition = targetElement.offsetTop - headerHeight;
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    } else {
+      // Comportamiento normal para otras secciones
+      const targetId = href.replace('#', '');
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        const headerHeight = 80; // Altura aproximada del header fijo
+        const targetPosition = targetElement.offsetTop - headerHeight;
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
     }
     
     // Cerrar menú móvil si está abierto
@@ -32,8 +51,8 @@ export default function Header() {
   // Enlaces de navegación izquierda
   const leftNavLinks = [
     { name: '¿Quiénes somos?', href: '#quienes-somos' },
-    { name: 'Prácticas', href: '#practicas' },
-    { name: 'Industrias', href: '#practicas' } // Industrias también va a Prácticas/Servicios
+    { name: 'Prácticas', href: '#practicas-tab' },
+    { name: 'Industrias', href: '#industrias-tab' }
   ];
 
   // Enlaces de navegación derecha
