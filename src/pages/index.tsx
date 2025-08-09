@@ -11,6 +11,7 @@ import ContactSection from '@/components/ContactSection';
 import LocationSection from '@/components/LocationSection';
 import Footer from '@/components/Footer';
 import AnimatedSection from '@/components/AnimatedSection';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function Home() {
   return (
@@ -88,6 +89,9 @@ export default function Home() {
 
         {/* Footer */}
         <Footer />
+
+        {/* WhatsApp Button */}
+        <WhatsAppButton />
       </div>
     </>
   );

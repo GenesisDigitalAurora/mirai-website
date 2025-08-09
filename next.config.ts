@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
   skipTrailingSlashRedirect: true,
   images: {
     unoptimized: true
+  },
+  // Deshabilitar el indicador de desarrollo
+  devIndicators: {
+    buildActivity: false,
+    buildActivityPosition: 'bottom-right'
   }
 };
 

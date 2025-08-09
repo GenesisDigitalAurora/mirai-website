@@ -120,8 +120,8 @@ export default function ServicesSection() {
           </div>
         </div>
 
-        {/* Grid de Cards con Animaciones por Fila */}
-        <div className="space-y-6">
+        {/* Grid de Cards con Animaciones Optimizadas */}
+        <div className="space-y-4">
           {Array.from({ length: Math.ceil(currentServices.length / 4) }).map((_, rowIndex) => {
             const rowServices = currentServices.slice(rowIndex * 4, (rowIndex + 1) * 4);
             
@@ -129,8 +129,9 @@ export default function ServicesSection() {
               <AnimatedSection 
                 key={`${activeTab}-row-${rowIndex}`}
                 animation="fadeUp" 
-                delay={rowIndex * 200}
-                duration={600}
+                delay={rowIndex * 100} // Reducido de 200ms a 100ms
+                duration={400} // Reducido de 600ms a 400ms
+                easing="fast" // Curva de animación más rápida
               >
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {rowServices.map((service, cardIndex) => (

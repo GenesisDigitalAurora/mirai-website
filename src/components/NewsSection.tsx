@@ -183,7 +183,7 @@ export default function NewsSection() {
         </div>
 
         {/* Indicadores (Bullets) */}
-        <div className="flex justify-center mt-6 md:mt-8 gap-1 md:gap-2">
+        <div className="flex justify-center pt-20 mt-6 md:mt-8 gap-1 md:gap-2">
           {news.map((_, index) => (
             <button
               key={index}
