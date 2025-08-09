@@ -22,7 +22,7 @@ export default function NewsSection() {
       setCurrentIndex((prevIndex) => 
         prevIndex === news.length - 1 ? 0 : prevIndex + 1
       );
-    }, 6000); // 6 segundos entre cambios
+    }, 10000); // 6 segundos entre cambios
 
     return () => clearInterval(interval);
   }, [news.length]);
@@ -81,7 +81,7 @@ export default function NewsSection() {
         {/* Contenedor del Carrusel */}
         <div className="relative overflow-hidden">
           <div 
-            className="flex transition-transform duration-700 ease-out"
+            className="flex transition-transform duration-900 ease-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
             {news.map((item, index) => (
@@ -104,7 +104,7 @@ export default function NewsSection() {
                   </div>
                   
                   {/* Columna Izquierda - Contenido (Móvil: aparece segundo) */}
-                  <div className="space-y-4 md:space-y-6 order-2 lg:order-1">
+                  <div className="space-y-4 p-10 md:space-y-6 order-2 lg:order-1">
                     {/* Categoría y Fecha */}
                     <div
                       style={{
