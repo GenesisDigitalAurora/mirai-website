@@ -7,9 +7,10 @@ interface CardServiceProps {
   content: string;
   buttonText?: string;
   titleColor?: string;
+  onViewMore?: () => void;
 }
 
-export default function CardService({ iconPath, title, subtitle, content, buttonText = "Ver más", titleColor = "#40B637" }: CardServiceProps) {
+export default function CardService({ iconPath, title, subtitle, content, buttonText = "Ver más", titleColor = "#40B637", onViewMore }: CardServiceProps) {
   // Función para procesar el título y aplicar bold a las partes en **texto**
   const processTitle = (text: string) => {
     const parts = text.split(/(\*\*.*?\*\*)/g);
@@ -94,6 +95,7 @@ export default function CardService({ iconPath, title, subtitle, content, button
       {/* Botón Ver más */}
       <div className="mt-auto">
         <button 
+          onClick={onViewMore}
           className="px-6 py-2 border-2 rounded-md transition-colors duration-200"
           style={{
             borderColor: titleColor,

@@ -4,7 +4,9 @@
     "iconPath": "/icons/practicas/001.svg",
     "title": "**ASG / ESG**",
     "subtitle": "(Ambiental, Social y de Gobernanza)",
-    "content": "Asesoría en integración de criterios ESG: responsabilidad ambiental, social y gobernanza. Incluye políticas, capacitación y alineación con estándares internacionales para modelos de negocio sostenibles."
+    "content": "Asesoría en integración de criterios ESG: responsabilidad ambiental, social y gobernanza. Incluye políticas, capacitación y alineación con estándares internacionales para modelos de negocio sostenibles.",
+    "detailedContent": "ASGDetail",
+    "partners": ["Luis Cuevas", "Marco Gelosi", "Ana García"]
     },
     {
       "iconPath": "/icons/practicas/002.svg",
@@ -128,7 +130,9 @@
     {
       "iconPath": "/icons/industrias/001.svg",
       "title": "**Alimentos y Bebidas**",
-      "content": "Servicios legales en cumplimiento, asesoría comercial, publicidad, certificaciones, defensa administrativa y protección de reputación en la industria de alimentos y bebidas."
+      "content": "Servicios legales en <strong>cumplimiento</strong>, asesoría comercial, publicidad, <em>certificaciones</em>, defensa administrativa y protección de reputación en la industria de alimentos y bebidas.",
+      "detailedContent": "<h2>Especialización en la Industria Alimentaria</h2><p>Especialistas en normativas <strong>COFEPRIS</strong>, etiquetado, registros sanitarios, y defensa ante autoridades.</p><h3>Servicios Especializados:</h3><ul><li><strong>Estrategias comerciales</strong> adaptadas al sector</li><li><strong>Protección de marca</strong> y propiedad intelectual</li><li><strong>Contratos de distribución</strong> nacional e internacional</li><li><strong>Certificaciones orgánicas</strong> y de calidad</li></ul><p>Nuestro <em>enfoque integral</em> abarca desde el desarrollo de productos hasta la comercialización internacional.</p><h3>Áreas de Competencia:</h3><ol><li>Registro sanitario de productos alimentarios</li><li>Etiquetado nutricional y publicitario</li><li>Defensa ante COFEPRIS y otras autoridades</li><li>Contratos con proveedores y distribuidores</li></ol>",
+      "partners": ["María Rodríguez", "Carlos Mendoza"]
     },
     {
       "iconPath": "/icons/industrias/004.svg",

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Header from '@/components/Header';
 import VideoBanner from '@/components/VideoBanner';
@@ -12,8 +13,34 @@ import LocationSection from '@/components/LocationSection';
 import Footer from '@/components/Footer';
 import AnimatedSection from '@/components/AnimatedSection';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import ServiceDetailModal from '@/components/ServiceDetailModal';
+
+// Interfaz para los datos del servicio
+interface ServiceData {
+  iconPath: string;
+  title: string;
+  subtitle?: string;
+  content: string;
+  detailedContent?: string;
+  partners?: string[];
+  category?: 'practicas' | 'industrias';
+}
 
 export default function Home() {
+  // Estado global del modal
+  const [selectedService, setSelectedService] = useState<ServiceData | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Funciones para manejar el modal
+  const handleViewMore = (service: ServiceData) => {
+    setSelectedService(service);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedService(null);
+  };
   return (
     <>
       <Head>
@@ -57,7 +84,7 @@ export default function Home() {
         {/* Services Section */}
         <section id="practicas">
           <AnimatedSection animation="fadeUp" delay={100}>
-            <ServicesSection />
+            <ServicesSection onViewMore={handleViewMore} />
           </AnimatedSection>
         </section>
 
@@ -93,6 +120,13 @@ export default function Home() {
         {/* WhatsApp Button */}
         <WhatsAppButton />
       </div>
+
+      {/* Service Detail Modal - Global */}
+      <ServiceDetailModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        service={selectedService}
+      />
     </>
   );
 }

@@ -57,9 +57,7 @@ export default function TeamSection() {
               color: '#000000'
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet placerat elit, ut rhoncus nisl. Aenean vitae placerat augue, eget 
-            tincidunt turpis. Cras elementum, urna id convallis commodo, magna nunc maximus urna, in porta leo quam ac ipsum. Proin sodales nisl sed 
-            ante varius, ut fermentum mi condimentum.
+            En Mirai Abogados, contamos con un equipo de profesionales altamente capacitados y comprometidos con la excelencia en el servicio legal. Nuestros miembros combinan una vasta experiencia en diversas áreas del derecho con un enfoque innovador que integra herramientas digitales para ofrecer soluciones preventivas y personalizadas. Liderados por socios expertos, nos dedicamos a proteger los intereses de nuestros clientes en un entorno jurídico complejo y en constante evolución.
           </p>
         </div>
 

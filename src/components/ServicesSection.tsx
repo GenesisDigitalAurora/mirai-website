@@ -10,9 +10,16 @@ interface ServiceData {
   title: string;
   subtitle?: string;
   content: string;
+  detailedContent?: string;
+  partners?: string[];
+  category?: 'practicas' | 'industrias';
 }
 
-export default function ServicesSection() {
+interface ServicesSectionProps {
+  onViewMore: (service: ServiceData) => void;
+}
+
+export default function ServicesSection({ onViewMore }: ServicesSectionProps) {
   const [activeTab, setActiveTab] = useState<ServiceType>('practicas');
 
   // Escuchar cambios en el hash de la URL para cambiar la pestaña
@@ -42,6 +49,14 @@ export default function ServicesSection() {
   
   // Color dinámico según la tab activa
   const titleColor = activeTab === 'practicas' ? '#40B637' : '#921B95';
+
+  // Función para manejar la apertura del modal
+  const handleViewMoreClick = (service: ServiceData) => {
+    onViewMore({
+      ...service,
+      category: activeTab as 'practicas' | 'industrias'
+    });
+  };
 
   return (
     <section className="bg-white py-16 px-4">
@@ -142,6 +157,7 @@ export default function ServicesSection() {
                       subtitle={service.subtitle}
                       content={service.content}
                       titleColor={titleColor}
+                      onViewMore={() => handleViewMoreClick(service)}
                     />
                   ))}
                 </div>
