@@ -468,6 +468,7 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
           .team-content-column {
             height: 60vh !important;
             max-height: 60vh !important;
+            min-height: 90vh !important;
           }
           
           .team-photo {
