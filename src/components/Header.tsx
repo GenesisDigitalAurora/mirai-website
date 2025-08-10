@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const router = useRouter();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -12,6 +14,14 @@ export default function Header() {
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     
+    // Si no estamos en la página principal, navegar al home con el hash
+    if (router.pathname !== '/') {
+      router.push(`/${href}`);
+      setIsMobileMenuOpen(false);
+      return;
+    }
+    
+    // Si estamos en la página principal, hacer scroll normal
     // Casos especiales para pestañas de servicios
     if (href === '#practicas-tab' || href === '#industrias-tab') {
       // Primero cambiar el hash para activar la pestaña
@@ -59,7 +69,8 @@ export default function Header() {
   const rightNavLinks = [
     { name: 'Equipo', href: '#equipo' },
     { name: 'Noticias', href: '#noticias' },
-    { name: 'Contacto', href: '#contacto' }
+    { name: 'Contacto', href: '#contacto' },
+    { name: 'Inicio de sesión', href: '/login', isExternal: true }
   ];
 
   return (
@@ -101,14 +112,24 @@ export default function Header() {
           {/* Navegación Derecha */}
           <nav className="flex items-center space-x-8">
             {rightNavLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                onClick={(e) => handleSmoothScroll(e, link.href)}
-                className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
-              >
-                {link.name}
-              </a>
+              link.isExternal ? (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
+                >
+                  {link.name}
+                </Link>
+              ) : (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={(e) => handleSmoothScroll(e, link.href)}
+                  className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
+                >
+                  {link.name}
+                </a>
+              )
             ))}
           </nav>
         </div>
@@ -199,14 +220,25 @@ export default function Header() {
                   Recursos
                 </p>
                 {rightNavLinks.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    onClick={(e) => handleSmoothScroll(e, link.href)}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-primary-200 hover:bg-primary-700 transition-colors duration-200 cursor-pointer"
-                  >
-                    {link.name}
-                  </a>
+                  link.isExternal ? (
+                    <Link
+                      key={link.name}
+                      href={link.href}
+                      className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-primary-200 hover:bg-primary-700 transition-colors duration-200 cursor-pointer"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {link.name}
+                    </Link>
+                  ) : (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      onClick={(e) => handleSmoothScroll(e, link.href)}
+                      className="block px-3 py-2 rounded-md text-base font-medium text-white hover:text-primary-200 hover:bg-primary-700 transition-colors duration-200 cursor-pointer"
+                    >
+                      {link.name}
+                    </a>
+                  )
                 ))}
               </div>
             </div>
