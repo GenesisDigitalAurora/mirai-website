@@ -7,9 +7,20 @@ interface TeamMember {
   photo: string;
   name: string;
   position: string;
+  email?: string;
+  phone?: string;
+  bio?: string;
+  hitosProf?: string[];
+  practicas?: string[];
+  industrias?: string[];
+  footerText?: string;
 }
 
-export default function TeamSection() {
+interface TeamSectionProps {
+  onViewMember?: (member: TeamMember) => void;
+}
+
+export default function TeamSection({ onViewMember }: TeamSectionProps) {
   // Mostrar solo las primeras 12 personas (3 filas de 4)
   const teamMembers = teamData.teamMembers.slice(0, 12) as TeamMember[];
 
@@ -80,7 +91,7 @@ export default function TeamSection() {
                       photo={member.photo}
                       name={member.name}
                       position={member.position}
-                      onClick={() => console.log(`Ver perfil de ${member.name}`)}
+                      onClick={() => onViewMember?.(member)}
                     />
                   ))}
                 </div>

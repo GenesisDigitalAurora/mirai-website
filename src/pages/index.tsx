@@ -14,6 +14,7 @@ import Footer from '@/components/Footer';
 import AnimatedSection from '@/components/AnimatedSection';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import ServiceDetailModal from '@/components/ServiceDetailModal';
+import TeamDetailModal from '@/components/TeamDetailModal';
 
 // Interfaz para los datos del servicio
 interface ServiceData {
@@ -24,22 +25,53 @@ interface ServiceData {
   detailedContent?: string;
   partners?: string[];
   category?: 'practicas' | 'industrias';
+  footerText?: string;
+}
+
+// Interfaz para los datos del miembro del equipo
+interface TeamMemberData {
+  id: number;
+  photo: string;
+  name: string;
+  position: string;
+  email?: string;
+  phone?: string;
+  bio?: string;
+  hitosProf?: string[];
+  practicas?: string[];
+  industrias?: string[];
+  footerText?: string;
 }
 
 export default function Home() {
-  // Estado global del modal
+  // Estado global del modal de servicios
   const [selectedService, setSelectedService] = useState<ServiceData | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isServiceModalOpen, setIsServiceModalOpen] = useState(false);
 
-  // Funciones para manejar el modal
+  // Estado global del modal de equipo
+  const [selectedMember, setSelectedMember] = useState<TeamMemberData | null>(null);
+  const [isTeamModalOpen, setIsTeamModalOpen] = useState(false);
+
+  // Funciones para manejar el modal de servicios
   const handleViewMore = (service: ServiceData) => {
     setSelectedService(service);
-    setIsModalOpen(true);
+    setIsServiceModalOpen(true);
   };
 
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
+  const handleCloseServiceModal = () => {
+    setIsServiceModalOpen(false);
     setSelectedService(null);
+  };
+
+  // Funciones para manejar el modal de equipo
+  const handleViewMember = (member: TeamMemberData) => {
+    setSelectedMember(member);
+    setIsTeamModalOpen(true);
+  };
+
+  const handleCloseTeamModal = () => {
+    setIsTeamModalOpen(false);
+    setSelectedMember(null);
   };
   return (
     <>
@@ -91,7 +123,7 @@ export default function Home() {
         {/* Team Section */}
         <section id="equipo">
           <AnimatedSection animation="fadeUp" delay={100}>
-            <TeamSection />
+            <TeamSection onViewMember={handleViewMember} />
           </AnimatedSection>
         </section>
 
@@ -123,9 +155,16 @@ export default function Home() {
 
       {/* Service Detail Modal - Global */}
       <ServiceDetailModal
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
+        isOpen={isServiceModalOpen}
+        onClose={handleCloseServiceModal}
         service={selectedService}
+      />
+
+      {/* Team Detail Modal - Global */}
+      <TeamDetailModal
+        isOpen={isTeamModalOpen}
+        onClose={handleCloseTeamModal}
+        member={selectedMember}
       />
     </>
   );
