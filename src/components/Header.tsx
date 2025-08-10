@@ -78,25 +78,25 @@ export default function Header() {
       className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-lg"
       style={{ fontFamily: 'Mulish, sans-serif' }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
         {/* Desktop Layout */}
-        <div className="hidden lg:flex items-center justify-between py-4">
+        <div className="hidden lg:grid grid-cols-3 items-center py-4 relative">
           {/* Navegación Izquierda */}
-          <nav className="flex items-center space-x-8">
+          <nav className="flex items-center justify-start space-x-8">
             {leftNavLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={(e) => handleSmoothScroll(e, link.href)}
-                className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
+                className="text-white hover:text-primary-200 px-3 py-2 text-lg font-medium transition-colors duration-200 cursor-pointer"
               >
                 {link.name}
               </a>
             ))}
           </nav>
 
-          {/* Logo Centrado */}
-          <div className="flex items-center">
+          {/* Logo Centrado Absolutamente */}
+          <div className="flex items-center justify-center">
             <Link href="/" className="flex items-center">
               <Image
                 src="/MIRAI_MainLogo.svg"
@@ -110,13 +110,13 @@ export default function Header() {
           </div>
 
           {/* Navegación Derecha */}
-          <nav className="flex items-center space-x-8">
+          <nav className="flex items-center justify-end space-x-8">
             {rightNavLinks.map((link) => (
               link.isExternal ? (
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
+                  className="text-white hover:text-primary-200 px-3 py-2 text-lg font-medium transition-colors duration-200 cursor-pointer"
                 >
                   {link.name}
                 </Link>
@@ -125,7 +125,7 @@ export default function Header() {
                   key={link.name}
                   href={link.href}
                   onClick={(e) => handleSmoothScroll(e, link.href)}
-                  className="text-white hover:text-primary-200 px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer"
+                  className="text-white hover:text-primary-200 px-3 py-2 text-lg font-medium transition-colors duration-200 cursor-pointer"
                 >
                   {link.name}
                 </a>
