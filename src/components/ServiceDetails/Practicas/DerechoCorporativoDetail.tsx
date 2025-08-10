@@ -1,4 +1,4 @@
-export default function ASGDetail() {
+export default function DerechoCorporativoDetail() {
   return (
     <div>
       <p 
@@ -8,39 +8,16 @@ export default function ASGDetail() {
           fontSize: 'clamp(14px, 2.5vw, 16px)',
           lineHeight: '150%',
           color: '#1E1E1E',
-          marginBottom: '1.5em'
+          marginBottom: '2em'
         }}
       >
-        Organización y soluciones que impactan en la responsabilidad ambiental, social y ética de tu negocio; asesoramos en las verticales:
+        Asesoría integral en estructuración corporativa, fusiones y adquisiciones, y gobierno corporativo. Diseñamos soluciones estratégicas para optimizar la estructura legal de las empresas.
       </p>
-
-      <ul 
-        style={{
-          fontFamily: 'Mulish',
-          fontWeight: 400,
-          fontSize: 'clamp(14px, 2.5vw, 16px)',
-          lineHeight: '150%',
-          color: '#1E1E1E',
-          paddingLeft: '1.5em',
-          marginBottom: '2em',
-          listStyle: 'disc'
-        }}
-      >
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Ambiental (Environmental)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Social (Social)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Gobernanza (Governance)</strong>
-        </li>
-      </ul>
 
       {/* Grid de tres columnas para los servicios */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
         
-        {/* Columna 1: Integración efectiva de criterios ESG */}
+        {/* Columna 1: Estructuración Corporativa */}
         <div>
           <h3 
             style={{
@@ -52,9 +29,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Integración efectiva de criterios ESG
+            Estructuración Corporativa
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -64,11 +41,19 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Esto abarca desde la operación diaria y el gobierno corporativo hasta la cultura organizacional.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Constitución de sociedades y entidades corporativas.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Reorganizaciones y reestructuraciones societarias.
+            </p>
+            <p>
+              Optimización de estructuras corporativas complejas.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 2: Apoyo estratégico y desarrollo de capacidades */}
+        {/* Columna 2: Fusiones y Adquisiciones */}
         <div>
           <h3 
             style={{
@@ -80,9 +65,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Apoyo estratégico y desarrollo de capacidades
+            Fusiones y Adquisiciones
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -92,11 +77,19 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Diseño e implementación de políticas ESG robustas. Capacitación de tus equipos.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Due diligence legal y estructuración de transacciones.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Negociación y documentación de M&A.
+            </p>
+            <p>
+              Asesoría en joint ventures y alianzas estratégicas.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 3: Construcción de modelos de negocio sostenibles */}
+        {/* Columna 3: Gobierno Corporativo */}
         <div>
           <h3 
             style={{
@@ -108,9 +101,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Construcción de modelos de negocio sostenibles
+            Gobierno Corporativo
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -120,8 +113,16 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Construir modelos de negocio que sean verdaderamente sostenibles, éticos y altamente competitivos alineados con estándares internacionales.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Implementación de mejores prácticas de gobierno corporativo.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Asesoría a consejos de administración y comités.
+            </p>
+            <p>
+              Cumplimiento de obligaciones societarias y regulatorias.
+            </p>
+          </div>
         </div>
       </div>
     </div>

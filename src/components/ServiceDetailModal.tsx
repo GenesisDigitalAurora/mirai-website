@@ -13,6 +13,7 @@ interface ServiceDetailModalProps {
     detailedContent?: string;
     partners?: string[];
     category?: 'practicas' | 'industrias';
+    footerText?: string;
   } | null;
 }
 
@@ -45,6 +46,12 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
 
   // Limpiar el título de markdown
   const cleanTitle = service.title.replace(/\*\*/g, '');
+
+  // Texto por defecto para el footer
+  const defaultFooterText = "En MIRAI Abogados, estamos listos para apoyarte en <strong>cualquier tema jurídico</strong> que necesites. <strong>¿Cómo podemos ayudarte a alcanzar tus objetivos legales?</strong>";
+  
+  // Usar el texto personalizado o el por defecto
+  const footerText = service.footerText || defaultFooterText;
 
   return (
     <>
@@ -127,7 +134,7 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
 
           {/* Body */}
           <div 
-            className="bg-white overflow-y-auto py-10 px-50"
+            className="bg-white overflow-y-auto py-10 px-30"
             style={{
               maxHeight: 'calc(70vh - 200px)', // Ajustar según header y footer
               animation: isOpen ? 'slideInBody 0.5s ease-out 0.2s both' : 'none'
@@ -164,7 +171,7 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
             </div>
           </div>
         {/* Sección de Socios */}
-        <div className="p-10 bg-gray-100 flex items-center gap-2">
+        <div className="p-5 bg-gray-100 flex items-center gap-2">
             
             <h3 
               style={{
@@ -260,12 +267,8 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
                   fontSize: 'clamp(14px, 2.5vw, 16px)',
                   lineHeight: '140%'
                 }}
-              >
-                En MIRAI Abogados, estamos listos para ser tu socio estratégico en el camino hacia la sostenibilidad y llevarlo a otro nivel.
-                <strong>
-                  ¿Cómo te ayudamos a ser una entidad sostenible y socialmente responsable?
-                </strong>
-              </p>
+                dangerouslySetInnerHTML={{ __html: footerText }}
+              />
             </div>
           </div>
         </div>

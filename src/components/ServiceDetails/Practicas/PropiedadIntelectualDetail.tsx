@@ -1,4 +1,4 @@
-export default function ASGDetail() {
+export default function PropiedadIntelectualDetail() {
   return (
     <div>
       <p 
@@ -8,39 +8,16 @@ export default function ASGDetail() {
           fontSize: 'clamp(14px, 2.5vw, 16px)',
           lineHeight: '150%',
           color: '#1E1E1E',
-          marginBottom: '1.5em'
+          marginBottom: '2em'
         }}
       >
-        Organización y soluciones que impactan en la responsabilidad ambiental, social y ética de tu negocio; asesoramos en las verticales:
+        Protección integral de activos intelectuales, registro de marcas, patentes y derechos de autor. Estrategias para maximizar el valor comercial de la propiedad intelectual.
       </p>
-
-      <ul 
-        style={{
-          fontFamily: 'Mulish',
-          fontWeight: 400,
-          fontSize: 'clamp(14px, 2.5vw, 16px)',
-          lineHeight: '150%',
-          color: '#1E1E1E',
-          paddingLeft: '1.5em',
-          marginBottom: '2em',
-          listStyle: 'disc'
-        }}
-      >
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Ambiental (Environmental)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Social (Social)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Gobernanza (Governance)</strong>
-        </li>
-      </ul>
 
       {/* Grid de tres columnas para los servicios */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
         
-        {/* Columna 1: Integración efectiva de criterios ESG */}
+        {/* Columna 1: Registro y Protección */}
         <div>
           <h3 
             style={{
@@ -52,9 +29,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Integración efectiva de criterios ESG
+            Registro y Protección
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -64,11 +41,19 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Esto abarca desde la operación diaria y el gobierno corporativo hasta la cultura organizacional.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Registro de marcas, patentes y modelos de utilidad.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Protección de derechos de autor y software.
+            </p>
+            <p>
+              Estrategias de protección nacional e internacional.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 2: Apoyo estratégico y desarrollo de capacidades */}
+        {/* Columna 2: Defensa y Litigios */}
         <div>
           <h3 
             style={{
@@ -80,9 +65,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Apoyo estratégico y desarrollo de capacidades
+            Defensa y Litigios
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -92,11 +77,19 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Diseño e implementación de políticas ESG robustas. Capacitación de tus equipos.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Defensa contra infracciones y uso indebido.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Litigios por violación de propiedad intelectual.
+            </p>
+            <p>
+              Procedimientos de oposición y nulidad.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 3: Construcción de modelos de negocio sostenibles */}
+        {/* Columna 3: Comercialización */}
         <div>
           <h3 
             style={{
@@ -108,9 +101,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Construcción de modelos de negocio sostenibles
+            Comercialización
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -120,8 +113,16 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Construir modelos de negocio que sean verdaderamente sostenibles, éticos y altamente competitivos alineados con estándares internacionales.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Contratos de licenciamiento y transferencia.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Valoración de activos intelectuales.
+            </p>
+            <p>
+              Estrategias de monetización y franquicias.
+            </p>
+          </div>
         </div>
       </div>
     </div>

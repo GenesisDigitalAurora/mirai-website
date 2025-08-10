@@ -1,4 +1,4 @@
-export default function ASGDetail() {
+export default function ComercioExteriorDetail() {
   return (
     <div>
       <p 
@@ -8,39 +8,16 @@ export default function ASGDetail() {
           fontSize: 'clamp(14px, 2.5vw, 16px)',
           lineHeight: '150%',
           color: '#1E1E1E',
-          marginBottom: '1.5em'
+          marginBottom: '2em'
         }}
       >
-        Organización y soluciones que impactan en la responsabilidad ambiental, social y ética de tu negocio; asesoramos en las verticales:
+        Asesoría integral en operaciones de comercio internacional, importación y exportación. Ayudamos a las empresas a navegar por las regulaciones aduaneras y comerciales para facilitar sus operaciones globales.
       </p>
-
-      <ul 
-        style={{
-          fontFamily: 'Mulish',
-          fontWeight: 400,
-          fontSize: 'clamp(14px, 2.5vw, 16px)',
-          lineHeight: '150%',
-          color: '#1E1E1E',
-          paddingLeft: '1.5em',
-          marginBottom: '2em',
-          listStyle: 'disc'
-        }}
-      >
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Ambiental (Environmental)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Social (Social)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Gobernanza (Governance)</strong>
-        </li>
-      </ul>
 
       {/* Grid de tres columnas para los servicios */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
         
-        {/* Columna 1: Integración efectiva de criterios ESG */}
+        {/* Columna 1: Regulaciones Aduaneras */}
         <div>
           <h3 
             style={{
@@ -52,9 +29,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Integración efectiva de criterios ESG
+            Regulaciones Aduaneras
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -64,11 +41,19 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Esto abarca desde la operación diaria y el gobierno corporativo hasta la cultura organizacional.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Asesoría en clasificación arancelaria y valoración en aduana.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Cumplimiento de normas oficiales mexicanas (NOMs).
+            </p>
+            <p>
+              Gestión de permisos y autorizaciones de importación/exportación.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 2: Apoyo estratégico y desarrollo de capacidades */}
+        {/* Columna 2: Tratados Comerciales */}
         <div>
           <h3 
             style={{
@@ -80,9 +65,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Apoyo estratégico y desarrollo de capacidades
+            Tratados Comerciales
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -92,11 +77,19 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Diseño e implementación de políticas ESG robustas. Capacitación de tus equipos.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Aprovechamiento de beneficios del T-MEC y otros tratados.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Certificación de origen y reglas de origen.
+            </p>
+            <p>
+              Estrategias para optimización arancelaria.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 3: Construcción de modelos de negocio sostenibles */}
+        {/* Columna 3: Cumplimiento y Litigios */}
         <div>
           <h3 
             style={{
@@ -108,9 +101,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Construcción de modelos de negocio sostenibles
+            Cumplimiento y Litigios
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -120,8 +113,16 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Construir modelos de negocio que sean verdaderamente sostenibles, éticos y altamente competitivos alineados con estándares internacionales.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Defensa en procedimientos aduaneros y embargos.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Implementación de programas de cumplimiento.
+            </p>
+            <p>
+              Auditorías preventivas y corrección de irregularidades.
+            </p>
+          </div>
         </div>
       </div>
     </div>

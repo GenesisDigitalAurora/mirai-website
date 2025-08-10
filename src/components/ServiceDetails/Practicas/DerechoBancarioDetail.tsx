@@ -1,4 +1,4 @@
-export default function ASGDetail() {
+export default function DerechoBancarioDetail() {
   return (
     <div>
       <p 
@@ -8,39 +8,16 @@ export default function ASGDetail() {
           fontSize: 'clamp(14px, 2.5vw, 16px)',
           lineHeight: '150%',
           color: '#1E1E1E',
-          marginBottom: '1.5em'
+          marginBottom: '2em'
         }}
       >
-        Organización y soluciones que impactan en la responsabilidad ambiental, social y ética de tu negocio; asesoramos en las verticales:
+        Creación y gestión de productos financieros y soluciones de financiamiento y crédito. Contamos con alta especialización en materia financiera y bancaria, lo que nos permite ofrecer soluciones estratégicas e innovadoras a nuestros clientes.
       </p>
-
-      <ul 
-        style={{
-          fontFamily: 'Mulish',
-          fontWeight: 400,
-          fontSize: 'clamp(14px, 2.5vw, 16px)',
-          lineHeight: '150%',
-          color: '#1E1E1E',
-          paddingLeft: '1.5em',
-          marginBottom: '2em',
-          listStyle: 'disc'
-        }}
-      >
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Ambiental (Environmental)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Social (Social)</strong>
-        </li>
-        <li style={{ marginBottom: '0.5em' }}>
-          <strong style={{ fontWeight: 700 }}>Gobernanza (Governance)</strong>
-        </li>
-      </ul>
 
       {/* Grid de tres columnas para los servicios */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
         
-        {/* Columna 1: Integración efectiva de criterios ESG */}
+        {/* Columna 1: Soluciones regulatorias y de productos financieros */}
         <div>
           <h3 
             style={{
@@ -52,9 +29,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Integración efectiva de criterios ESG
+            Soluciones regulatorias y de productos financieros
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -64,11 +41,19 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Esto abarca desde la operación diaria y el gobierno corporativo hasta la cultura organizacional.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Obtención de licencias para instituciones financieras.
+            </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Atención a requerimientos de autoridades, como la CNBV, BANXICO, CONDUSEF y CNSF.
+            </p>
+            <p>
+              Asesoría legal especializada en optimización de sistemas de pago, incluyendo la gestión de registros para adquirentes y agregadores.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 2: Apoyo estratégico y desarrollo de capacidades */}
+        {/* Columna 2: Soluciones de financiamiento y crédito */}
         <div>
           <h3 
             style={{
@@ -80,9 +65,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Apoyo estratégico y desarrollo de capacidades
+            Soluciones de financiamiento y crédito
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -92,11 +77,16 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Diseño e implementación de políticas ESG robustas. Capacitación de tus equipos.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Estructuración de financiamientos, como préstamos sindicados, financiamiento estructurado, factorajes y crédito individual.
+            </p>
+            <p>
+              Diseño de productos crediticios, como tarjetas de crédito, crédito simple y crédito revolvente.
+            </p>
+          </div>
         </div>
 
-        {/* Columna 3: Construcción de modelos de negocio sostenibles */}
+        {/* Columna 3: Soluciones en prevención de lavado de dinero (PLD) */}
         <div>
           <h3 
             style={{
@@ -108,9 +98,9 @@ export default function ASGDetail() {
               marginBottom: '0.75em'
             }}
           >
-            Construcción de modelos de negocio sostenibles
+            Soluciones en prevención de lavado de dinero (PLD)
           </h3>
-          <p 
+          <div 
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
@@ -120,8 +110,13 @@ export default function ASGDetail() {
               textAlign: 'left'
             }}
           >
-            Construir modelos de negocio que sean verdaderamente sostenibles, éticos y altamente competitivos alineados con estándares internacionales.
-          </p>
+            <p style={{ marginBottom: '0.8em' }}>
+              Cumplimiento normativo en prevención de lavado de dinero.
+            </p>
+            <p>
+              Asesoría integral a instituciones financieras, fortaleciendo tus controles internos y procedimientos.
+            </p>
+          </div>
         </div>
       </div>
     </div>
