@@ -14,12 +14,16 @@ export default function VideoBanner() {
   }, []);
 
   return (
-    <div className="relative w-full overflow-hidden" style={{ height: '80vh' }}>
+    <div className="relative w-full overflow-hidden h-[50vh] md:h-[80vh]">
       {/* Video Container */}
       <div className="absolute inset-0">
         <video
           ref={videoRef}
           className="w-full h-full object-cover"
+          style={{
+            objectPosition: 'center center',
+            minWidth: '100%'
+          }}
           autoPlay
           muted
           playsInline

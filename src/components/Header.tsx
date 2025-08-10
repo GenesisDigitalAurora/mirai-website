@@ -216,9 +216,6 @@ export default function Header() {
 
               {/* Enlaces de navegación derecha en mobile */}
               <div>
-                <p className="text-primary-200 text-xs font-semibold uppercase tracking-wide mb-2 px-3">
-                  Recursos
-                </p>
                 {rightNavLinks.map((link) => (
                   link.isExternal ? (
                     <Link

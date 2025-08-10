@@ -25,7 +25,7 @@ export default function TeamSection({ onViewMember }: TeamSectionProps) {
   const teamMembers = teamData.teamMembers.slice(0, 12) as TeamMember[];
 
   return (
-    <section className="bg-white py-16 px-4">
+    <section className="bg-white py-16 px-4 hidden md:block">
       <div className="max-w-7xl mx-auto">
         {/* Título Principal */}
         <h2 

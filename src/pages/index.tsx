@@ -6,7 +6,9 @@ import IntroSection from '@/components/IntroSection';
 import StatsSection from '@/components/StatsSection';
 import AboutUsSection from '@/components/AboutUsSection';
 import ServicesSection from '@/components/ServicesSection';
+import ServicesSectionMobile from '@/components/ServicesSectionMobile';
 import TeamSection from '@/components/TeamSection';
+import TeamSectionMobile from '@/components/TeamSectionMobile';
 import NewsSection from '@/components/NewsSection';
 import ContactSection from '@/components/ContactSection';
 import LocationSection from '@/components/LocationSection';
@@ -92,7 +94,9 @@ export default function Home() {
         {/* Video Banner - 80% height */}
         <main className="relative pt-16 md:pt-17">
           <AnimatedSection animation="fade" duration={1000}>
-            <VideoBanner />
+            <div className="w-full">
+              <VideoBanner />
+            </div>
           </AnimatedSection>
         </main>
 
@@ -115,16 +119,24 @@ export default function Home() {
 
         {/* Services Section */}
         <section id="practicas">
+          {/* Desktop Version with Animation */}
           <AnimatedSection animation="fadeUp" delay={100}>
             <ServicesSection onViewMore={handleViewMore} />
           </AnimatedSection>
+          
+          {/* Mobile Version without Animation */}
+          <ServicesSectionMobile onViewMore={handleViewMore} />
         </section>
 
         {/* Team Section */}
         <section id="equipo">
+          {/* Desktop Version with Animation */}
           <AnimatedSection animation="fadeUp" delay={100}>
             <TeamSection onViewMember={handleViewMember} />
           </AnimatedSection>
+          
+          {/* Mobile Version without Animation */}
+          <TeamSectionMobile onViewMember={handleViewMember} />
         </section>
 
         {/* News Section */}

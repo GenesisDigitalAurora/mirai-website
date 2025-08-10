@@ -59,7 +59,7 @@ export default function ServicesSection({ onViewMore }: ServicesSectionProps) {
   };
 
   return (
-    <section className="bg-white py-16 px-4">
+    <section className="bg-white py-16 px-4 hidden md:block">
       <div className="max-w-7xl mx-auto">
         {/* Título Principal */}
         <h2 

@@ -76,10 +76,9 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
           
           {/* Header */}
           <div 
-            className="relative"
+            className="relative px-10 py-8 md:px-40 md:py-32"
             style={{
               backgroundColor: headerColor,
-              padding: '32px 40px',
               animation: isOpen ? 'slideInTop 0.4s ease-out 0.1s both' : 'none'
             }}
           >
@@ -102,11 +101,10 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
 
             {/* Título */}
             <h1 
-              className="mb-2 text-white"
+              className="mb-2 text-white text-lg md:text-2xl lg:text-3xl"
               style={{
                 fontFamily: 'Mulish',
                 fontWeight: 900,
-                fontSize: 'clamp(24px, 4vw, 32px)',
                 lineHeight: '120%',
                 letterSpacing: '0%',
                 marginTop: '0'
@@ -118,11 +116,10 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
             {/* Subtítulo */}
             {service.subtitle && (
               <p 
-                className="text-white opacity-90"
+                className="text-white opacity-90 text-sm md:text-base lg:text-lg"
                 style={{
                   fontFamily: 'Mulish',
                   fontWeight: 400,
-                  fontSize: 'clamp(16px, 3vw, 18px)',
                   lineHeight: '130%',
                   letterSpacing: '0%'
                 }}
@@ -134,14 +131,14 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
 
           {/* Body */}
           <div 
-            className="bg-white overflow-y-auto py-10 px-30"
+            className="bg-white overflow-y-auto py-6 px-0 md:py-10 md:px-30"
             style={{
               maxHeight: 'calc(70vh - 200px)', // Ajustar según header y footer
               animation: isOpen ? 'slideInBody 0.5s ease-out 0.2s both' : 'none'
             }}
           >
             {/* Descripción principal */}
-            <div className="mb-8">
+            <div className="mb-8 px-4 md:px-0">
                               
                 {/* Contenido detallado adicional */}
                 {service.detailedContent && (() => {
@@ -155,11 +152,10 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
                   // Si no es un componente, renderizar como HTML (fallback)
                   return (
                     <div 
-                      className="service-detailed-content"
+                      className="service-detailed-content text-sm md:text-base"
                       style={{
                         fontFamily: 'Mulish',
                         fontWeight: 400,
-                        fontSize: 'clamp(14px, 2.5vw, 16px)',
                         lineHeight: '150%',
                         color: '#1E1E1E',
                         textAlign: 'justify'
@@ -171,13 +167,13 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
             </div>
           </div>
         {/* Sección de Socios */}
-        <div className="p-5 bg-gray-100 flex items-center gap-2">
+        <div className="p-3 md:p-5 bg-gray-100 flex items-center gap-2">
             
             <h3 
+              className="text-sm md:text-base lg:text-lg"
               style={{
                 fontFamily: 'Mulish',
                 fontWeight: 700,
-                fontSize: 'clamp(16px, 3vw, 18px)',
                 lineHeight: '130%',
                 color: '#1E1E1E'
               }}
@@ -197,10 +193,10 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
                     }}
                   >
                     <span 
+                      className="text-xs md:text-sm"
                       style={{
                         fontFamily: 'Mulish',
                         fontWeight: 500,
-                        fontSize: 'clamp(13px, 2vw, 15px)',
                         lineHeight: '120%',
                         letterSpacing: '0%',
                         color: '#921B95'
@@ -222,11 +218,10 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
               </div>
             ) : (
               <p 
-                className="text-gray-500 italic"
+                className="text-gray-500 italic text-sm md:text-base"
                 style={{
                   fontFamily: 'Mulish',
                   fontWeight: 400,
-                  fontSize: 'clamp(14px, 2.5vw, 16px)',
                   lineHeight: '150%'
                 }}
               >
@@ -243,8 +238,8 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
               animation: isOpen ? 'slideInBottom 0.4s ease-out 0.3s both' : 'none'
             }}
           >
-            {/* Imagen representativa */}
-            <div className="flex-shrink-0">
+            {/* Imagen representativa - Solo visible en desktop */}
+            <div className="flex-shrink-0 hidden md:block">
               <div 
                 className="flex items-center justify-center text-white font-bold text-xl "
               >
@@ -258,13 +253,12 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
             </div>
 
             {/* Texto del footer */}
-            <div className="flex-1 p-0 box-border">
+            <div className="flex-1 p-4 md:p-0 box-border">
               <p 
-                className="text-white"
+                className="text-white text-sm md:text-base"
                 style={{
                   fontFamily: 'Mulish',
                   fontWeight: 600,
-                  fontSize: 'clamp(14px, 2.5vw, 16px)',
                   lineHeight: '140%'
                 }}
                 dangerouslySetInnerHTML={{ __html: footerText }}
@@ -443,6 +437,32 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
           .modal-body {
             max-height: calc(95vh - 180px) !important;
             overflow-y: auto !important;
+          }
+          
+          /* Tipografía más pequeña para móviles */
+          .service-content h1,
+          .service-detailed-content h1 {
+            font-size: 18px !important;
+          }
+          
+          .service-content h2,
+          .service-detailed-content h2 {
+            font-size: 16px !important;
+          }
+          
+          .service-content h3,
+          .service-detailed-content h3 {
+            font-size: 14px !important;
+          }
+          
+          .service-content p,
+          .service-detailed-content p {
+            font-size: 14px !important;
+          }
+          
+          .service-content li,
+          .service-detailed-content li {
+            font-size: 14px !important;
           }
           
           @keyframes modalEnter {

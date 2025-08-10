@@ -90,9 +90,9 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
             />
           </button>
 
-          {/* COLUMNA 1: Foto */}
+          {/* COLUMNA 1: Foto - Solo visible en desktop */}
           <div 
-            className="flex-shrink-0 relative team-photo-column"
+            className="flex-shrink-0 relative team-photo-column hidden md:block"
             style={{
               width: '40%',
               animation: isOpen ? 'slideInLeft 0.4s ease-out 0.1s both' : 'none'
@@ -123,20 +123,18 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
           >
             {/* Header de la segunda columna */}
             <div 
-              className="relative"
+              className="relative px-4 py-6 md:px-10 md:py-8"
               style={{
                 backgroundColor: headerColor,
-                padding: '32px 40px',
                 flexShrink: 0
               }}
             >
               {/* Nombre */}
               <h1 
-                className="mb-2 text-white"
+                className="mb-2 text-white text-lg md:text-2xl lg:text-3xl"
                 style={{
                   fontFamily: 'Mulish',
                   fontWeight: 900,
-                  fontSize: 'clamp(24px, 4vw, 32px)',
                   lineHeight: '120%',
                   letterSpacing: '0%',
                   marginTop: '0'
@@ -147,11 +145,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
 
               {/* Posición */}
               <p 
-                className="text-white opacity-90 mb-4"
+                className="text-white opacity-90 mb-4 text-sm md:text-base lg:text-lg"
                 style={{
                   fontFamily: 'Mulish',
                   fontWeight: 600,
-                  fontSize: 'clamp(16px, 3vw, 20px)',
                   lineHeight: '130%',
                   letterSpacing: '0%'
                 }}
@@ -172,20 +169,16 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
 
             {/* Body de la segunda columna */}
             <div 
-              className="bg-white overflow-y-auto flex-1"
-              style={{
-                padding: '30px 40px'
-              }}
+              className="bg-white overflow-y-auto flex-1 px-4 py-6 md:px-10 md:py-8"
             >
               {/* Biografía */}
               {member.bio && (
                 <div className="mb-8">
                   <h2 
-                    className="mb-4"
+                    className="mb-4 text-base md:text-lg lg:text-xl"
                     style={{
                       fontFamily: 'Mulish',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 3vw, 22px)',
                       lineHeight: '130%',
                       color: '#921B95'
                     }}
@@ -193,10 +186,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
                     BIOGRAFÍA
                   </h2>
                   <p 
+                    className="text-sm md:text-base"
                     style={{
                       fontFamily: 'Mulish',
                       fontWeight: 400,
-                      fontSize: 'clamp(14px, 2.5vw, 16px)',
                       lineHeight: '150%',
                       color: '#1E1E1E',
                       textAlign: 'justify'
@@ -211,11 +204,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
               {member.hitosProf && member.hitosProf.length > 0 && (
                 <div className="mb-8">
                   <h2 
-                    className="mb-4"
+                    className="mb-4 text-base md:text-lg lg:text-xl"
                     style={{
                       fontFamily: 'Mulish',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 3vw, 22px)',
                       lineHeight: '130%',
                       color: '#921B95'
                     }}
@@ -226,11 +218,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
                     {member.hitosProf.map((hito, index) => (
                       <li 
                         key={index}
-                        className="flex items-start"
+                        className="flex items-start text-sm md:text-base"
                         style={{
                           fontFamily: 'Mulish',
                           fontWeight: 400,
-                          fontSize: 'clamp(14px, 2.5vw, 16px)',
                           lineHeight: '150%',
                           color: '#1E1E1E'
                         }}
@@ -250,11 +241,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
               {member.practicas && member.practicas.length > 0 && (
                 <div className="mb-8">
                   <h2 
-                    className="mb-4"
+                    className="mb-4 text-base md:text-lg lg:text-xl"
                     style={{
                       fontFamily: 'Mulish',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 3vw, 22px)',
                       lineHeight: '130%',
                       color: '#921B95'
                     }}
@@ -265,11 +255,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
                     {member.practicas.map((practica, index) => (
                       <span 
                         key={index}
-                        className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-800 border border-green-200"
+                        className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-800 border border-green-200 text-xs md:text-sm"
                         style={{
                           fontFamily: 'Mulish',
                           fontWeight: 500,
-                          fontSize: 'clamp(12px, 2vw, 14px)',
                           lineHeight: '120%'
                         }}
                       >
@@ -284,11 +273,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
               {member.industrias && member.industrias.length > 0 && (
                 <div className="mb-8">
                   <h2 
-                    className="mb-4"
+                    className="mb-4 text-base md:text-lg lg:text-xl"
                     style={{
                       fontFamily: 'Mulish',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 3vw, 22px)',
                       lineHeight: '130%',
                       color: '#921B95'
                     }}
@@ -299,11 +287,10 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
                     {member.industrias.map((industria, index) => (
                       <span 
                         key={index}
-                        className="inline-block px-3 py-1 rounded-full bg-purple-100 text-purple-800 border border-purple-200"
+                        className="inline-block px-3 py-1 rounded-full bg-purple-100 text-purple-800 border border-purple-200 text-xs md:text-sm"
                         style={{
                           fontFamily: 'Mulish',
                           fontWeight: 500,
-                          fontSize: 'clamp(12px, 2vw, 14px)',
                           lineHeight: '120%'
                         }}
                       >
@@ -322,8 +309,8 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
                 backgroundColor: footerColor
               }}
             >
-              {/* Imagen representativa */}
-              <div className="flex-shrink-0">
+              {/* Imagen representativa - Solo visible en desktop */}
+              <div className="flex-shrink-0 hidden md:block">
                 <div className="flex items-center justify-center text-white font-bold text-xl">
                   <Image
                     src="/MIRAI_DetailcardImage.webp"
@@ -335,13 +322,12 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
               </div>
 
               {/* Texto del footer */}
-              <div className="flex-1 p-0 box-border">
+              <div className="flex-1 p-4 md:p-0 box-border">
                 <p 
-                  className="text-white"
+                  className="text-white text-sm md:text-base"
                   style={{
                     fontFamily: 'Mulish',
                     fontWeight: 600,
-                    fontSize: 'clamp(14px, 2.5vw, 16px)',
                     lineHeight: '140%'
                   }}
                   dangerouslySetInnerHTML={{ __html: footerText }}
@@ -489,6 +475,23 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
             height: 100% !important;
             object-fit: cover !important;
             border-radius: 1rem 1rem 0 0 !important;
+          }
+          
+          /* Tipografía más pequeña para móviles */
+          h1 {
+            font-size: 18px !important;
+          }
+          
+          h2 {
+            font-size: 16px !important;
+          }
+          
+          h3 {
+            font-size: 14px !important;
+          }
+          
+          p, li {
+            font-size: 14px !important;
           }
           
           @keyframes modalEnter {

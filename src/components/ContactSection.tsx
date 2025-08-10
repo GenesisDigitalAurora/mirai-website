@@ -75,7 +75,7 @@ export default function ContactSection() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
 
           {/* Contenido del Formulario */}
-          <div className="relative z-10 flex flex-col items-center justify-center min-h-[600px] px-6 md:px-12 pt-12">
+          <div className="relative z-10 flex flex-col items-center justify-center min-h-[600px] px-6 md:px-12 pt-12 pb-8 md:pb-12">
             
             {/* Título del Formulario */}
             <div className="text-center mb-8">
