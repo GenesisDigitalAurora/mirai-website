@@ -18,6 +18,92 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import ServiceDetailModal from '@/components/ServiceDetailModal';
 import TeamDetailModal from '@/components/TeamDetailModal';
 
+// Importar datos
+import servicesData from '@/data/services.json';
+import teamData from '@/data/team.json';
+
+// Función para mapear nombres de servicios entre team.json y services.json
+const createServiceMapping = () => {
+  const practiceMapping: { [key: string]: string } = {
+    // Mapeos exactos que coinciden
+    "Contractual": "Contractual",
+    "Derecho Corporativo": "Derecho Corporativo",
+    "Derecho Familiar": "Derecho Familiar",
+    "Derecho Patrimonial": "Derecho Patrimonial",
+    "Derecho Inmobiliario": "Derecho Inmobiliario",
+    "Derecho Agrario": "Derecho Agrario",
+    "Derecho Migratorio": "Derecho Migratorio",
+    "Derecho Fiscal": "Derecho Fiscal",
+    "Propiedad Intelectual": "Propiedad Intelectual",
+    "Corresponsalías": "Corresponsalías",
+    "Derecho Ambiental": "Derecho Ambiental",
+    "Traducciones Legales": "Traducciones Legales",
+    
+    // Mapeos que requieren transformación
+    "ASG / ESG (Ambiental, Social y de Gobernanza)": "ASG / ESG",
+    "Derecho Bancario, Bursátil y Financiero": "Derecho Bancario, Bursátil y Financiero",
+    "Ética y Compliance": "Ética y Compliance",
+    "Life Sciences y Derecho Regulatorio": "Life Science & Derecho Regulatorio",
+    "Derechos del Consumidor (PROFECO y CONDUSEF)": "Derechos del Consumidor",
+    "Derecho Administrativo y Constitucional": "Derecho Administrativo y Constitucional",
+    "Entretenimiento, deportes e industrias creativas": "Entretenimiento, Deportes e Industrias Creativas",
+    "Litigio Civil y Mercantil": "Litigio y Consultoría en Materia Civil y Mercantil",
+    "Derecho Laboral": "Derecho Laboral",
+    "Comercio Exterior": "Comercio Exterior",
+    "Fintech": "Fintech",
+    
+    // Mapeos adicionales encontrados en los perfiles
+    "Fintech, LegalTech y RegTech": "LegalTech",
+    "Financiamientos": "Derecho Bancario, Bursátil y Financiero",
+    "Derechos del Consumidor (PROFECO) / CONDUSEF": "Derechos del Consumidor",
+    "Contratación Civil y Mercantil": "Contractual",
+    "Derecho Civil y Mercantil": "Litigio y Consultoría en Materia Civil y Mercantil",
+    "Litigio Civil Estratégico": "Litigio y Consultoría en Materia Civil y Mercantil",
+    "Regulación y Cumplimiento": "Ética y Compliance"
+  };
+
+  const industryMapping: { [key: string]: string } = {
+    // Mapeos exactos
+    "Automotriz": "Automotriz",
+    "Agroindustria": "Agroindustria",
+    "FMCG": "FMCG",
+    "Farmacéutica": "Farmacéutica",
+    "Energía": "Energía",
+    "Seguros": "Seguros",
+    "Tecnología": "Tecnología",
+    "Turismo": "Turismo",
+    
+    // Mapeos que requieren transformación
+    "Alimentos y Bebidas": "Alimentos y Bebidas",
+    "Real Estate y Desarrollo Inmobiliario": "Real Estate",
+    "Fintech, Bancario y Financiero": "Fintech y Bancos",
+    "Seguros y Servicios Financieros": "Seguros",
+    "Tecnología y Plataformas Digitales": "Tecnología",
+    "Consumo y Bienes de Consumo Empacados (FMCG)": "FMCG",
+    "Farmacéutica y Ciencias de la Salud": "Farmacéutica",
+    "Turismo y Hospitalidad": "Turismo",
+    "Agroindustria y Recursos Naturales": "Agroindustria",
+    "Infraestructura y Energía": "Energía",
+    "Automotriz y Manufactura Avanzada": "Automotriz",
+    "Automotriz y Manufactura": "Automotriz",
+    
+    // Mapeos adicionales
+    "Consumo y Bienes de Consumo_Empacados (FMCG)": "FMCG",
+    "ONGs, Fundaciones y Sector Cultural": "ONGs",
+    "Empresas familiares y patrimoniales": "Real Estate", // Mejor mapeo disponible
+    "Consumo y Servicios al Cliente": "FMCG",
+    "Financiera y Banca": "Fintech y Bancos",
+    "Telecomunicaciones y Tecnología": "Tecnología",
+    "Consumo, Farmacéutica y Salud": "Farmacéutica",
+    "Inmobiliario e Infraestructura": "Real Estate",
+    "Servicios Financieros y Banca": "Fintech y Bancos"
+  };
+
+  return { practiceMapping, industryMapping };
+};
+
+const { practiceMapping, industryMapping } = createServiceMapping();
+
 // Interfaz para los datos del servicio
 interface ServiceData {
   iconPath: string;
@@ -74,6 +160,56 @@ export default function Home() {
   const handleCloseTeamModal = () => {
     setIsTeamModalOpen(false);
     setSelectedMember(null);
+  };
+
+  // Función para navegar desde servicio a miembro del equipo
+  const handlePartnerClick = (partnerName: string) => {
+    // Buscar el miembro por nombre
+    const member = teamData.teamMembers.find(m => m.name === partnerName);
+    if (member) {
+      // Cerrar modal de servicio
+      setIsServiceModalOpen(false);
+      setSelectedService(null);
+      
+      // Abrir modal de miembro
+      setTimeout(() => {
+        setSelectedMember(member);
+        setIsTeamModalOpen(true);
+      }, 200); // Pequeño delay para una transición suave
+    }
+  };
+
+  // Función para navegar desde miembro a servicio
+  const handleServiceClick = (serviceName: string, category: 'practicas' | 'industrias') => {
+    // Usar el mapeo para encontrar el nombre correcto
+    let mappedServiceName = serviceName;
+    if (category === 'practicas' && practiceMapping[serviceName]) {
+      mappedServiceName = practiceMapping[serviceName];
+    } else if (category === 'industrias' && industryMapping[serviceName]) {
+      mappedServiceName = industryMapping[serviceName];
+    }
+    
+    // Buscar el servicio por título mapeado
+    const targetServices = category === 'practicas' ? servicesData.practicas : servicesData.industrias;
+    const service = targetServices.find(s => {
+      const cleanTitle = s.title.replace(/\*\*/g, '');
+      return cleanTitle === mappedServiceName;
+    });
+    
+    if (service) {
+      // Cerrar modal de miembro
+      setIsTeamModalOpen(false);
+      setSelectedMember(null);
+      
+      // Abrir modal de servicio
+      setTimeout(() => {
+        setSelectedService({ ...service, category });
+        setIsServiceModalOpen(true);
+      }, 200); // Pequeño delay para una transición suave
+    } else {
+      // Log para debugging - servicios que no se pudieron mapear
+      console.warn(`No se pudo encontrar el servicio: "${serviceName}" -> "${mappedServiceName}" en categoría "${category}"`);
+    }
   };
   return (
     <>
@@ -170,6 +306,7 @@ export default function Home() {
         isOpen={isServiceModalOpen}
         onClose={handleCloseServiceModal}
         service={selectedService}
+        onPartnerClick={handlePartnerClick}
       />
 
       {/* Team Detail Modal - Global */}
@@ -177,6 +314,7 @@ export default function Home() {
         isOpen={isTeamModalOpen}
         onClose={handleCloseTeamModal}
         member={selectedMember}
+        onServiceClick={handleServiceClick}
       />
     </>
   );

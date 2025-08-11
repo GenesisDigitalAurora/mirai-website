@@ -15,9 +15,10 @@ interface ServiceDetailModalProps {
     category?: 'practicas' | 'industrias';
     footerText?: string;
   } | null;
+  onPartnerClick?: (partnerName: string) => void;
 }
 
-export default function ServiceDetailModal({ isOpen, onClose, service }: ServiceDetailModalProps) {
+export default function ServiceDetailModal({ isOpen, onClose, service, onPartnerClick }: ServiceDetailModalProps) {
   // Cerrar modal con Escape
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -76,7 +77,7 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
           
           {/* Header */}
           <div 
-            className="relative px-10 py-8 md:px-40 md:py-32"
+            className="relative px-10 py-8 md:py-10"
             style={{
               backgroundColor: headerColor,
               animation: isOpen ? 'slideInTop 0.4s ease-out 0.1s both' : 'none'
@@ -191,6 +192,7 @@ export default function ServiceDetailModal({ isOpen, onClose, service }: Service
                     style={{
                       minWidth: '140px'
                     }}
+                    onClick={() => onPartnerClick?.(partner)}
                   >
                     <span 
                       className="text-xs md:text-sm"

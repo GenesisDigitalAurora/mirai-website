@@ -17,9 +17,10 @@ interface TeamDetailModalProps {
     industrias?: string[];
     footerText?: string;
   } | null;
+  onServiceClick?: (serviceName: string, category: 'practicas' | 'industrias') => void;
 }
 
-export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailModalProps) {
+export default function TeamDetailModal({ isOpen, onClose, member, onServiceClick }: TeamDetailModalProps) {
   // Cerrar modal con Escape
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -255,12 +256,13 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
                     {member.practicas.map((practica, index) => (
                       <span 
                         key={index}
-                        className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-800 border border-green-200 text-xs md:text-sm"
+                        className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-800 border border-green-200 text-xs md:text-sm cursor-pointer hover:bg-green-200 transition-colors duration-200"
                         style={{
                           fontFamily: 'Mulish',
                           fontWeight: 500,
                           lineHeight: '120%'
                         }}
+                        onClick={() => onServiceClick?.(practica, 'practicas')}
                       >
                         {practica}
                       </span>
@@ -287,12 +289,13 @@ export default function TeamDetailModal({ isOpen, onClose, member }: TeamDetailM
                     {member.industrias.map((industria, index) => (
                       <span 
                         key={index}
-                        className="inline-block px-3 py-1 rounded-full bg-purple-100 text-purple-800 border border-purple-200 text-xs md:text-sm"
+                        className="inline-block px-3 py-1 rounded-full bg-purple-100 text-purple-800 border border-purple-200 text-xs md:text-sm cursor-pointer hover:bg-purple-200 transition-colors duration-200"
                         style={{
                           fontFamily: 'Mulish',
                           fontWeight: 500,
                           lineHeight: '120%'
                         }}
+                        onClick={() => onServiceClick?.(industria, 'industrias')}
                       >
                         {industria}
                       </span>
