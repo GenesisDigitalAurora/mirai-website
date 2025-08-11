@@ -128,16 +128,7 @@ export default function CookieConsent({ onAccept, onReject }: CookieConsentProps
               isClosing ? 'translate-y-full opacity-0' : 'translate-y-0 opacity-100'
             }`}
           >
-            <div className="flex items-start gap-6">
-              {/* Icono */}
-              <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4" />
-                  </svg>
-                </div>
-              </div>
-
+            <div className="flex items-center gap-6">
               {/* Contenido */}
               <div className="flex-1">
                 <h3 
