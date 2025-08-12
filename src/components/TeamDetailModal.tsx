@@ -11,6 +11,7 @@ interface TeamDetailModalProps {
     position: string;
     email?: string;
     phone?: string;
+    linkedin?: string;
     bio?: string;
     hitosProf?: string[];
     practicas?: string[];
@@ -132,7 +133,7 @@ export default function TeamDetailModal({ isOpen, onClose, member, onServiceClic
             >
               {/* Nombre */}
               <h1 
-                className="mb-2 text-white text-lg md:text-2xl lg:text-3xl"
+                className="mb-2 text-white text-lg md:text-2xl lg:text-3xl flex items-center gap-3"
                 style={{
                   fontFamily: 'Mulish',
                   fontWeight: 900,
@@ -141,10 +142,27 @@ export default function TeamDetailModal({ isOpen, onClose, member, onServiceClic
                   marginTop: '0'
                 }}
               >
+                {member.linkedin && (
+                  <a
+                    href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:opacity-75 transition-opacity duration-200"
+                  >
+                    <Image
+                      src="/linkedin-icon.svg"
+                      alt="LinkedIn"
+                      width={24}
+                      height={24}
+                      className="w-6 h-6"
+                      style={{ filter: 'brightness(0) invert(1)' }}
+                    />
+                  </a>
+                )}
                 {member.name}
               </h1>
 
-              {/* Posición */}
+              {/* Posición y contacto */}
               <p 
                 className="text-white opacity-90 mb-4 text-sm md:text-base lg:text-lg"
                 style={{
