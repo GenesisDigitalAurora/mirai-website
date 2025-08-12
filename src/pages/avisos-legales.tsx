@@ -37,6 +37,9 @@ export default function AvisosLegales() {
               </p>
             </div>
 
+            {/* Anchor para Condiciones de Uso */}
+            <div id="condiciones-uso" className="h-0 -mt-24 pt-24"></div>
+            
             {/* Condiciones de Uso */}
             <section className="mb-16">
               <div className="p-6 md:p-8">
@@ -206,6 +209,9 @@ export default function AvisosLegales() {
               </div>
             </section>
 
+            {/* Anchor para Aviso de Privacidad */}
+            <div id="aviso-privacidad" className="h-0 -mt-24 pt-24"></div>
+            
             {/* Aviso de Privacidad Integral */}
             <section className="mb-16">
               <div className="p-6 md:p-8">
@@ -439,6 +445,9 @@ export default function AvisosLegales() {
               </div>
             </section>
 
+            {/* Anchor para Aviso de Cookies */}
+            <div id="aviso-cookies" className="h-0 -mt-24 pt-24"></div>
+            
             {/* Aviso de uso de Cookies */}
             <section className="mb-16">
               <div className="p-6 md:p-8">
