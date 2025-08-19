@@ -331,7 +331,7 @@ export default function TeamDetailModal({ isOpen, onClose, member, onServiceClic
               }}
             >
               {/* Imagen representativa - Solo visible en desktop */}
-              <div className="flex-shrink-0 hidden md:block">
+              {/* <div className="flex-shrink-0 hidden md:block">
                 <div className="flex items-center justify-center text-white font-bold text-xl">
                   <Image
                     src="/MIRAI_DetailcardImage.webp"
@@ -340,10 +340,10 @@ export default function TeamDetailModal({ isOpen, onClose, member, onServiceClic
                     height={117}
                   />
                 </div>
-              </div>
+              </div> */}
 
               {/* Texto del footer */}
-              <div className="flex-1 p-4 md:p-0 box-border">
+              <div className="flex-1 p-5 md:p-10 box-border">
                 <p 
                   className="text-white text-sm md:text-base"
                   style={{
