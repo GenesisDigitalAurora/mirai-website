@@ -56,8 +56,8 @@ export default function AvisosLegales() {
                       1. Identidad del titular
                     </h3>
                     <p className="mb-4">
-                      El sitio web www.mirai.legal (el "Sitio Web") es propiedad y está administrado por 
-                      Asesores Legales Mirai, Sociedad Civil ("Mirai"). Mirai es una sociedad con domicilio 
+                      El sitio web www.mirai.legal (el &ldquo;Sitio Web&rdquo;) es propiedad y está administrado por 
+                      Asesores Legales Mirai, Sociedad Civil (&ldquo;Mirai&rdquo;). Mirai es una sociedad con domicilio 
                       social en Córdoba 42, piso 5, Suite B, Alcaldía Cuauhtémoc, C.P. 06700. CDMX.
                     </p>
                   </div>
@@ -226,13 +226,13 @@ export default function AvisosLegales() {
                   <div>
                     <p className="mb-4">
                       En cumplimiento de lo dispuesto en la Ley Federal de Protección de Datos Personales en Posesión 
-                      de los Particulares (en lo sucesivo, la "Ley") y demás disposiciones aplicables, 
+                      de los Particulares (en lo sucesivo, la &ldquo;Ley&rdquo;) y demás disposiciones aplicables, 
                       se informa a clientes, proveedores, empleados, visitantes, candidatos y cualquier otra persona 
                       titular de datos personales, lo siguiente:
                     </p>
                     <p className="mb-4">
-                      Asesores Legales Mirai, S.C. (en lo sucesivo, "Mirai"), con 
-                      domicilio en Córdoba 42, Piso 5, Suite "B", Colonia Roma Norte, Código Postal 06700, en esta 
+                      Asesores Legales Mirai, S.C. (en lo sucesivo, &ldquo;Mirai&rdquo;), con 
+                      domicilio en Córdoba 42, Piso 5, Suite &ldquo;B&rdquo;, Colonia Roma Norte, Código Postal 06700, en esta 
                       Ciudad de México, México, y correo electrónico contacto@mirai.legal, es responsable del tratamiento 
                       de sus datos personales conforme a los principios de licitud, consentimiento, información, calidad, 
                       finalidad, lealtad, proporcionalidad y responsabilidad previstos por la Ley.
@@ -276,7 +276,7 @@ export default function AvisosLegales() {
                     </p>
                     <p className="mb-4">
                       Mirai únicamente utilizará dispositivos de almacenamiento y recuperación de datos 
-                      ('Cookies') cuando el usuario haya dado su consentimiento previo para ello de acuerdo con lo que se 
+                      (&lsquo;Cookies&rsquo;) cuando el usuario haya dado su consentimiento previo para ello de acuerdo con lo que se 
                       indica en la ventana emergente del navegador del usuario cuando accede por primera vez a la Web y en 
                       los demás términos y condiciones que se indican en la Política de Cookies de Mirai que todo usuario 
                       debe conocer.
