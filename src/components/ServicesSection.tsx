@@ -74,7 +74,7 @@ export default function ServicesSection({ onViewMore }: ServicesSectionProps) {
             color: '#921B95'
           }}
         >
-          Conoce nuestras soluciones
+          Nuestras soluciones
         </h2>
 
         {/* Sistema de Tabs */}
