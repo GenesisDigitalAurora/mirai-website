@@ -98,17 +98,16 @@ function Counter({ end, prefix = '', duration = 2000 }: CounterProps) {
 
 export default function StatsSection() {
   const stats: StatItem[] = [
-    { number: 10, label: 'Años de experiencia', prefix: '+' },
-    { number: 20, label: 'Soluciones', prefix: '+' },
-    { number: 100, label: 'Casos de éxito', prefix: '+' },
-    { number: 20, label: 'Asociados' }
+    { number: 20, label: 'Prácticas', prefix: '+' },
+    { number: 500, label: 'Casos de éxito', prefix: '+' },
+    { number: 100, label: 'Clientes' }
   ];
 
   return (
     <section className="bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Grid de estadísticas */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-16">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
               {/* Separador vertical para desktop (excepto el último) */}

@@ -4,15 +4,14 @@ export default function IntroSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h2 
-            className="text-secondary mb-6 max-w-5xl mx-auto"
+            className="mb-6 max-w-5xl mx-auto text-gray-600"
             style={{
               fontFamily: 'Mulish',
               fontWeight: 400,
               fontSize: 'clamp(24px, 4vw, 32px)', // Responsive font size
               lineHeight: '100%',
               letterSpacing: '0%',
-              textAlign: 'center',
-              color: '#40B637'
+              textAlign: 'center'
             }}
           >
             <span style={{ fontWeight: 900 }}>Somos la primer firma de abogados en México</span><br />
