@@ -84,14 +84,14 @@
     {
       "iconPath": "/icons/practicas/003.svg",
       "title": "**Derecho Laboral**",
-      "content": "Gestión de relaciones laborales, cumplimiento con el  IMSS e INFONAVIT y defensa a través de litigios. Desarrollo de estrategias para reducir riesgos y mejorar el clima organizacional.",
+      "content": "Gestión de relaciones laborales, cumplimiento con el IMSS e INFONAVIT, y representación en litigios. Estrategias para reducir riesgos y mejorar clima organizacional.",
       "detailedContent": "DerechoLaboralDetail",
       "partners": ["Enrique Rivera"]
     },
     {
       "iconPath": "/icons/practicas/007.svg",
       "title": "**Derecho Migratorio**",
-      "content": "Trámites para permisos de trabajo y estancia. Cumplimiento corporativo y movilidad internacional ante INM.",
+      "content": "Trámites para permisos de trabajo y estancia. Cumplimiento corporativo y movilidad internacional ante el Instituto Nacional de Migración (INM).",
       "detailedContent": "DerechoMigratorioDetail",
       "partners": ["Israel Pérez Correa"]
     },
@@ -119,8 +119,8 @@
     },
     {
       "iconPath": "/icons/practicas/020.svg",
-      "title": "**Ética y Compliance**",
-      "content": "Sistemas de cumplimiento, códigos éticos y auditorías. Prevención de riesgos y gestión de crisis.",
+      "title": "**Ética y Cumplimiento**",
+      "content": "Desarrollo de programas de cumplimiento, línea ética y auditorías. Prevención de riesgos, Seguridad corporativa y gestión de crisis.",
       "detailedContent": "EticaComplianceDetail",
       "partners": ["Luis Cuevas", "Israel Alfaro"]
     },
@@ -141,7 +141,7 @@
     {
       "iconPath": "/icons/practicas/004.svg",
       "title": "**Life Science & Derecho Regulatorio**",
-      "content": "Asesoría legal, sanitaria y de cumplimiento para farmacéuticas y empresas dedicadas a la salud. Gestión de registros ante COFEPRIS, cumplimiento de normas y códigos, así como el acceso a diversos mercados.",
+      "content": "Asesoría legal, sanitaria y de cumplimiento para farmacéuticas y empresas dedicadas a la salud. Registros ante COFEPRIS y acceso a mercados.",
       "detailedContent": "LifeScienceDetail",
       "partners": ["Luis Cuevas"]
     },
