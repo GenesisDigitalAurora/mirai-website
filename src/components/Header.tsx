@@ -67,6 +67,7 @@ export default function Header() {
 
   // Enlaces de navegación derecha
   const rightNavLinks = [
+    { name: 'Pro Bono', href: '/probono', isExternal: true },
     { name: 'Equipo', href: '#equipo' },
     { name: 'Noticias', href: '#noticias' },
     { name: 'Contacto', href: '#contacto' },
@@ -82,13 +83,13 @@ export default function Header() {
         {/* Desktop Layout */}
         <div className="hidden lg:grid grid-cols-3 items-center py-4 relative">
           {/* Navegación Izquierda */}
-          <nav className="flex items-center justify-start space-x-8">
+          <nav className="flex items-center justify-start space-x-1">
             {leftNavLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={(e) => handleSmoothScroll(e, link.href)}
-                className="text-white hover:text-primary-200 px-3 py-2 text-lg font-medium transition-colors duration-200 cursor-pointer"
+                className="text-white hover:text-primary-200 px-3 py-2 text-lg font-medium transition-colors duration-200 cursor-pointer whitespace-nowrap"
               >
                 {link.name}
               </a>
@@ -110,15 +111,31 @@ export default function Header() {
           </div>
 
           {/* Navegación Derecha */}
-          <nav className="flex items-center justify-end space-x-8">
+          <nav className="flex items-center justify-end space-x-1">
             {rightNavLinks.map((link) => (
               link.isExternal ? (
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-white hover:text-primary-200 px-3 py-2 text-lg font-medium transition-colors duration-200 cursor-pointer"
+                  className={`text-white hover:text-primary-200 transition-colors duration-200 cursor-pointer whitespace-nowrap ${
+                    link.name === 'Inicio de sesión' 
+                      ? 'px-2 py-2' 
+                      : 'px-3 py-2 text-lg font-medium'
+                  }`}
+                  title={link.name === 'Inicio de sesión' ? 'Iniciar sesión' : ''}
                 >
-                  {link.name}
+                  {link.name === 'Inicio de sesión' ? (
+                    <Image
+                      src="/login.svg"
+                      alt="Iniciar sesión"
+                      width={24}
+                      height={24}
+                      className="w-6 h-6 flex-shrink-0"
+                      style={{ width: '24px', height: '24px', maxWidth: '24px', maxHeight: '24px' }}
+                    />
+                  ) : (
+                    link.name
+                  )}
                 </Link>
               ) : (
                 <a

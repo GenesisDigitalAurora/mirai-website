@@ -55,14 +55,14 @@ export default function Footer() {
           >
             Condiciones de uso
           </Link>
-          {'. '}
+          <span className="text-gray-400"> • </span>
           <Link 
             href="/avisos-legales#aviso-privacidad" 
             className="hover:text-[#921B95] transition-colors duration-200 cursor-pointer underline decoration-1 underline-offset-2"
           >
             Aviso de Privacidad Integral
           </Link>
-          {'. '}
+          <span className="text-gray-400"> • </span>
           <Link 
             href="/avisos-legales#aviso-cookies" 
             className="hover:text-[#921B95] transition-colors duration-200 cursor-pointer underline decoration-1 underline-offset-2"
