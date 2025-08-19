@@ -50,14 +50,14 @@ export default function AvisosLegales() {
                   Condiciones de Uso
                 </h2>
                 
-                <div className="space-y-6 text-black leading-relaxed text-sm md:text-base">
+                <div className="space-y-6 text-black leading-relaxed text-sm md:text-base text-justify">
                   <div>
                     <h3 className="text-lg md:text-xl font-semibold mb-3" style={{ color: '#921B95' }}>
                       1. Identidad del titular
                     </h3>
                     <p className="mb-4">
-                      El sitio web www.mirai.legal (el &ldquo;<strong>Sitio Web</strong>&rdquo;) es propiedad y está administrado por 
-                      Asesores Legales Mirai, Sociedad Civil (&ldquo;<strong>Mirai</strong>&rdquo;). Mirai es una sociedad con domicilio 
+                      El sitio web www.mirai.legal (el "Sitio Web") es propiedad y está administrado por 
+                      Asesores Legales Mirai, Sociedad Civil ("Mirai"). Mirai es una sociedad con domicilio 
                       social en Córdoba 42, piso 5, Suite B, Alcaldía Cuauhtémoc, C.P. 06700. CDMX.
                     </p>
                   </div>
@@ -68,8 +68,8 @@ export default function AvisosLegales() {
                     </h3>
                     <p className="mb-4">
                       Al acceder y navegar por este Sitio Web, el usuario acepta de manera expresa estas 
-                      <strong> Condiciones de uso</strong>, nuestra <strong>Política de privacidad</strong> y nuestra 
-                      <strong> Política de cookies</strong>. Con este acto, el usuario reconoce haber leído y comprendido 
+                      Condiciones de uso, nuestra Política de privacidad y nuestra 
+                      Política de cookies. Con este acto, el usuario reconoce haber leído y comprendido 
                       los términos que rigen su navegación por el Sitio Web.
                     </p>
                   </div>
@@ -83,7 +83,7 @@ export default function AvisosLegales() {
                       Mirai no transfiere al usuario ningún derecho de propiedad intelectual o industrial sobre los elementos 
                       del Sitio Web. El usuario sólo está autorizado a visualizar el contenido para su uso personal y privado. 
                       Se prohíbe de forma expresa la reproducción, distribución o comunicación pública de los contenidos del 
-                      Sitio Web por cualquier medio o procedimiento, a menos que <strong>Mirai</strong> lo autorice explícitamente 
+                      Sitio Web por cualquier medio o procedimiento, a menos que Mirai lo autorice explícitamente 
                       o la ley lo permita.
                     </p>
                   </div>
@@ -115,11 +115,11 @@ export default function AvisosLegales() {
                       en la información del Sitio Web para tomar decisiones sin consultar a un profesional previamente. 
                       El acceso al material del Sitio Web no establece ninguna relación profesional o de otro tipo entre 
                       Mirai y el usuario. El usuario se compromete a utilizar el Sitio Web de acuerdo con estas 
-                      <strong> Condiciones de uso</strong>, nuestra <strong>Política de privacidad</strong>, nuestra 
-                      <strong> Política de cookies</strong>, y a actuar siempre de buena fe, respetando la normativa 
+                      Condiciones de uso, nuestra Política de privacidad, nuestra 
+                      Política de cookies, y a actuar siempre de buena fe, respetando la normativa 
                       aplicable y el orden público. Queda prohibido utilizar el Sitio Web con fines ilícitos o de manera 
                       que pueda interferir, impedir o dañar su funcionamiento normal o el de sus contenidos. El usuario 
-                      también se abstendrá de dañar los bienes y derechos de <strong>Mirai</strong> o de otros usuarios.
+                      también se abstendrá de dañar los bienes y derechos de Mirai o de otros usuarios.
                     </p>
                   </div>
 
@@ -138,7 +138,7 @@ export default function AvisosLegales() {
                       7. Modificación de las condiciones de uso
                     </h3>
                     <p className="mb-4">
-                      Mirai se reserva el derecho de modificar el contenido de estas <strong>Condiciones de uso</strong> 
+                      Mirai se reserva el derecho de modificar el contenido de estas Condiciones de uso 
                       en cualquier momento y a su entera discreción.
                     </p>
                   </div>
@@ -150,7 +150,7 @@ export default function AvisosLegales() {
                     <p className="mb-4">
                       Mirai declara que ha tomado y continuará tomando todas las medidas necesarias y razonables, 
                       dentro de sus posibilidades tecnológicas, para garantizar el correcto funcionamiento del Sitio Web. 
-                      No obstante, <strong>Mirai</strong> no se hace responsable de los posibles daños que puedan derivarse 
+                      No obstante, Mirai no se hace responsable de los posibles daños que puedan derivarse 
                       de desconexiones, interferencias o interrupciones en el acceso al Sitio Web. Tampoco asume responsabilidad 
                       por los daños al usuario o a terceros causados por la existencia y propagación de virus informáticos 
                       u otros elementos maliciosos. Mirai tampoco será responsable de los errores u omisiones en el contenido 
@@ -163,10 +163,10 @@ export default function AvisosLegales() {
                       9. Enlaces a terceros
                     </h3>
                     <p className="mb-4">
-                      Estas <strong>Condiciones de uso</strong> no aplican a los enlaces, sitios web o aplicaciones de 
+                      Estas Condiciones de uso no aplican a los enlaces, sitios web o aplicaciones de 
                       terceros a los que se pueda acceder a través del Sitio Web. Dichos enlaces se ofrecen únicamente 
                       para la conveniencia del usuario y no implican una recomendación o aprobación de su contenido por 
-                      parte de <strong>Mirai</strong>. Es responsabilidad del usuario leer y aceptar las condiciones de 
+                      parte de Mirai. Es responsabilidad del usuario leer y aceptar las condiciones de 
                       uso y políticas de privacidad de los sitios web enlazados. Mirai no asume ninguna responsabilidad 
                       derivada de ellos.
                     </p>
@@ -177,9 +177,9 @@ export default function AvisosLegales() {
                       10. Comunicaciones
                     </h3>
                     <p className="mb-4">
-                      Para cualquier consulta relacionada con estas <strong>Condiciones de uso</strong>, el usuario puede 
-                      contactar a <strong>Mirai</strong> a través de la dirección de correo electrónico: 
-                      <strong> contacto@mirai.legal</strong>
+                      Para cualquier consulta relacionada con estas Condiciones de uso, el usuario puede 
+                      contactar a Mirai a través de la dirección de correo electrónico: 
+                      contacto@mirai.legal
                     </p>
                   </div>
 
@@ -199,7 +199,7 @@ export default function AvisosLegales() {
                       12. Ley aplicable y jurisdicción
                     </h3>
                     <p className="mb-4">
-                      La relación entre <strong>Mirai</strong> y el usuario se rige por la legislación mexicana. 
+                      La relación entre Mirai y el usuario se rige por la legislación mexicana. 
                       Cualquier disputa o controversia será sometida a los tribunales competentes de la Ciudad de México. 
                       Mirai ejercerá todas las acciones civiles y penales que le correspondan para perseguir cualquier 
                       incumplimiento de estas Condiciones de uso y cualquier uso indebido del Sitio Web.
@@ -222,17 +222,17 @@ export default function AvisosLegales() {
                   Aviso de Privacidad Integral
                 </h2>
                 
-                <div className="space-y-6 text-black leading-relaxed text-sm md:text-base">
+                <div className="space-y-6 text-black leading-relaxed text-sm md:text-base text-justify">
                   <div>
                     <p className="mb-4">
                       En cumplimiento de lo dispuesto en la Ley Federal de Protección de Datos Personales en Posesión 
-                      de los Particulares (en lo sucesivo, la &ldquo;<strong>Ley</strong>&rdquo;) y demás disposiciones aplicables, 
+                      de los Particulares (en lo sucesivo, la "Ley") y demás disposiciones aplicables, 
                       se informa a clientes, proveedores, empleados, visitantes, candidatos y cualquier otra persona 
                       titular de datos personales, lo siguiente:
                     </p>
                     <p className="mb-4">
-                      <strong>Asesores Legales Mirai, S.C.</strong> (en lo sucesivo, &ldquo;<strong>MIRAI</strong>&rdquo;), con 
-                      domicilio en Córdoba 42, Piso 5, Suite &ldquo;B&rdquo;, Colonia Roma Norte, Código Postal 06700, en esta 
+                      Asesores Legales Mirai, S.C. (en lo sucesivo, "Mirai"), con 
+                      domicilio en Córdoba 42, Piso 5, Suite "B", Colonia Roma Norte, Código Postal 06700, en esta 
                       Ciudad de México, México, y correo electrónico contacto@mirai.legal, es responsable del tratamiento 
                       de sus datos personales conforme a los principios de licitud, consentimiento, información, calidad, 
                       finalidad, lealtad, proporcionalidad y responsabilidad previstos por la Ley.
@@ -242,9 +242,9 @@ export default function AvisosLegales() {
                       pérdida, destrucción, robo, extravío, alteración, así como el tratamiento no autorizado de los mismos.
                     </p>
                     <p className="mb-4">
-                      <strong>MIRAI</strong> podrá recabar datos personales de forma directa, personal, electrónica, verbal, 
+                      Mirai podrá recabar datos personales de forma directa, personal, electrónica, verbal, 
                       escrita o por cualquier otro medio legalmente permitido. La información recopilada dependerá de la 
-                      relación entre el titular y <strong>MIRAI</strong>, y se utilizará para las finalidades que se 
+                      relación entre el titular y Mirai, y se utilizará para las finalidades que se 
                       señalan a continuación:
                     </p>
                   </div>
@@ -254,10 +254,10 @@ export default function AvisosLegales() {
                       ¿Qué información recopilamos?
                     </h3>
                     <p className="mb-4">
-                      En MIRAI recopilamos los datos que usted libre y voluntariamente nos proporcione, mediante nuestros 
+                      En Mirai recopilamos los datos que usted libre y voluntariamente nos proporcione, mediante nuestros 
                       servicios, en línea, por escrito, vía telefónica, por redes sociales y/o por otros medios, mismos 
-                      que podrán incluir de manera enunciativa más no limitativa: <strong>(i)</strong> datos personales, 
-                      <strong>(ii)</strong> datos laborales; y, <strong>(iii)</strong> datos patrimoniales y financieros. 
+                      que podrán incluir de manera enunciativa más no limitativa: (i) datos personales, 
+                      (ii) datos laborales; y, (iii) datos patrimoniales y financieros. 
                       Así mismo y sólo en caso de ser aplicable, podremos recabar a través de la información que usted nos 
                       proporcione, algunos datos personales en general y datos laborales según corresponda, de terceros 
                       como sus hijos, cónyuge, tarjetahabientes adicionales que usted designe, así como referencias 
@@ -275,10 +275,10 @@ export default function AvisosLegales() {
                       con los términos y condiciones en este Aviso de Privacidad.
                     </p>
                     <p className="mb-4">
-                      <strong>MIRAI</strong> únicamente utilizará dispositivos de almacenamiento y recuperación de datos 
-                      (&lsquo;Cookies&rsquo;) cuando el usuario haya dado su consentimiento previo para ello de acuerdo con lo que se 
+                      Mirai únicamente utilizará dispositivos de almacenamiento y recuperación de datos 
+                      ('Cookies') cuando el usuario haya dado su consentimiento previo para ello de acuerdo con lo que se 
                       indica en la ventana emergente del navegador del usuario cuando accede por primera vez a la Web y en 
-                      los demás términos y condiciones que se indican en la Política de Cookies de MIRAI que todo usuario 
+                      los demás términos y condiciones que se indican en la Política de Cookies de Mirai que todo usuario 
                       debe conocer.
                     </p>
                   </div>
@@ -304,7 +304,7 @@ export default function AvisosLegales() {
                     </ul>
                     <p className="mb-4">
                       En caso de que no desee que sus datos sean tratados para finalidades secundarias, puede manifestarlo 
-                      a través del correo electrónico <strong>contacto@mirai.legal</strong>.
+                      a través del correo electrónico contacto@mirai.legal.
                     </p>
                   </div>
 
@@ -313,7 +313,7 @@ export default function AvisosLegales() {
                       2. Datos personales recabados
                     </h3>
                     <p className="mb-4">
-                      Dependiendo de la relación con MIRAI, se podrán recabar datos de identificación, contacto, laborales, 
+                      Dependiendo de la relación con Mirai, se podrán recabar datos de identificación, contacto, laborales, 
                       académicos, patrimoniales, financieros y, en su caso, datos sensibles como información sobre salud, 
                       discapacidad, orientación sexual o identidad de género, exclusivamente para el cumplimiento de 
                       obligaciones legales o con fines de inclusión, igualdad laboral y no discriminación.
@@ -325,13 +325,13 @@ export default function AvisosLegales() {
                       3. Transferencias de datos personales
                     </h3>
                     <p className="mb-3">
-                      MIRAI podrá transferir sus datos personales a terceros nacionales o extranjeros sin requerir su 
+                      Mirai podrá transferir sus datos personales a terceros nacionales o extranjeros sin requerir su 
                       consentimiento en los supuestos previstos por la Ley, incluyendo:
                     </p>
                     <ul className="list-disc list-inside mb-4 ml-4 space-y-1">
                       <li>Autoridades competentes que los soliciten.</li>
                       <li>Entidades del mismo grupo corporativo bajo las mismas políticas de privacidad.</li>
-                      <li>Proveedores de servicios tecnológicos o administrativos (incluyendo plataformas como Notion) que actúen por cuenta de MIRAI.</li>
+                      <li>Proveedores de servicios tecnológicos o administrativos (incluyendo plataformas como Notion) que actúen por cuenta de Mirai.</li>
                     </ul>
                     <p className="mb-4">
                       Toda transferencia se realizará garantizando que los terceros asuman las mismas obligaciones de 
@@ -361,15 +361,15 @@ export default function AvisosLegales() {
                       5. Seguridad y conservación
                     </h3>
                     <p className="mb-4">
-                      MIRAI implementa medidas de seguridad técnicas, físicas y administrativas para proteger sus datos 
+                      Mirai implementa medidas de seguridad técnicas, físicas y administrativas para proteger sus datos 
                       personales contra daño, pérdida, alteración, destrucción o uso no autorizado. Los datos se conservarán 
                       durante el tiempo que resulte necesario para cumplir con las finalidades señaladas y conforme a las 
                       disposiciones legales aplicables.
                     </p>
                     <p className="mb-4">
-                      MIRAI adopta los niveles de seguridad adecuados a la naturaleza de los datos que son objeto de 
+                      Mirai adopta los niveles de seguridad adecuados a la naturaleza de los datos que son objeto de 
                       tratamiento en cada momento. No obstante lo anterior, la seguridad técnica en un medio como Internet 
-                      no es inexpugnable y pueden existir actuaciones dolosas de terceros, si bien MIRAI pone todos los 
+                      no es inexpugnable y pueden existir actuaciones dolosas de terceros, si bien Mirai pone todos los 
                       medios a su alcance para evitar dichas actuaciones.
                     </p>
                   </div>
@@ -379,7 +379,7 @@ export default function AvisosLegales() {
                       6. Uso de cookies
                     </h3>
                     <p className="mb-4">
-                      El sitio web de MIRAI puede utilizar cookies para mejorar la experiencia del usuario. Usted puede 
+                      El sitio web de Mirai puede utilizar cookies para mejorar la experiencia del usuario. Usted puede 
                       configurar su navegador para restringir o deshabilitar el uso de cookies.
                     </p>
                   </div>
@@ -436,9 +436,9 @@ export default function AvisosLegales() {
                       11. Fecha de última actualización
                     </h3>
                     <p className="mb-4">
-                      <strong>Agosto 2025</strong><br/>
+                      Agosto 2025<br/>
                       Para cualquier duda o aclaración respecto al tratamiento de sus datos personales, puede escribir a 
-                      <strong> contacto@mirai.legal</strong>.
+                       contacto@mirai.legal.
                     </p>
                   </div>
                 </div>
@@ -458,10 +458,10 @@ export default function AvisosLegales() {
                   Aviso de Uso de Cookies
                 </h2>
                 
-                <div className="space-y-6 text-black leading-relaxed text-sm md:text-base">
+                <div className="space-y-6 text-black leading-relaxed text-sm md:text-base text-justify">
                   <div>
                     <p className="mb-4">
-                      En esta política, te explicamos qué son las <strong>cookies</strong> y otras tecnologías similares, 
+                      En esta política, te explicamos qué son las cookies y otras tecnologías similares, 
                       cómo las utilizamos en nuestro servicio y cómo puedes gestionarlas.
                     </p>
                   </div>
@@ -475,7 +475,7 @@ export default function AvisosLegales() {
                       ¿Qué son las cookies y tecnologías similares?
                     </h4>
                     <p className="mb-4">
-                      Las <strong>cookies</strong> son pequeños archivos de texto o imagen que se instalan en tu navegador 
+                      Las cookies son pequeños archivos de texto o imagen que se instalan en tu navegador 
                       o dispositivo cuando accedes a un servicio en línea. Permiten, entre otras cosas, recordar información 
                       sobre ti, tu navegador, tus dispositivos y tu actividad en el servicio. Además de las cookies, existen 
                       otras tecnologías con funciones similares, como píxeles, web bugs, almacenamiento HTML5, objetos 
@@ -496,27 +496,27 @@ export default function AvisosLegales() {
                       <div>
                         <h5 className="font-semibold text-black mb-2">a) Según la entidad que las gestiona:</h5>
                         <ul className="list-disc list-inside ml-4 space-y-1">
-                          <li><strong>Cookies propias:</strong> Son aquellas que enviamos a tu dispositivo directamente desde nuestro dominio y son gestionadas por nosotros.</li>
-                          <li><strong>Cookies de terceros:</strong> Son aquellas que se envían a tu dispositivo desde un equipo o dominio que no es gestionado por nosotros, sino por un tercero que procesa la información obtenida a través de las cookies (por ejemplo, Google).</li>
+                          <li>Cookies propias: Son aquellas que enviamos a tu dispositivo directamente desde nuestro dominio y son gestionadas por nosotros.</li>
+                          <li>Cookies de terceros: Son aquellas que se envían a tu dispositivo desde un equipo o dominio que no es gestionado por nosotros, sino por un tercero que procesa la información obtenida a través de las cookies (por ejemplo, Google).</li>
                         </ul>
                       </div>
 
                       <div>
                         <h5 className="font-semibold text-black mb-2">b) Según el tiempo que permanecen activas:</h5>
                         <ul className="list-disc list-inside ml-4 space-y-1">
-                          <li><strong>Cookies de sesión:</strong> Se utilizan para recopilar y almacenar datos mientras accedes a un servicio y se eliminan una vez que cierras el navegador.</li>
-                          <li><strong>Cookies persistentes:</strong> Permanecen en tu dispositivo por un período de tiempo determinado, que puede variar desde unos minutos hasta varios años. Se utilizan para recordar tus preferencias o ciertos parámetros cada vez que visitas un servicio.</li>
+                          <li>Cookies de sesión: Se utilizan para recopilar y almacenar datos mientras accedes a un servicio y se eliminan una vez que cierras el navegador.</li>
+                          <li>Cookies persistentes: Permanecen en tu dispositivo por un período de tiempo determinado, que puede variar desde unos minutos hasta varios años. Se utilizan para recordar tus preferencias o ciertos parámetros cada vez que visitas un servicio.</li>
                         </ul>
                       </div>
 
                       <div>
                         <h5 className="font-semibold text-black mb-2">c) Según su finalidad:</h5>
                         <ul className="list-disc list-inside ml-4 space-y-1">
-                          <li><strong>Cookies técnicas:</strong> Son esenciales y estrictamente necesarias para el correcto funcionamiento de nuestro servicio. Permiten el mantenimiento de la sesión, la gestión del tiempo de respuesta, el rendimiento y el uso de elementos de seguridad, entre otras funciones.</li>
-                          <li><strong>Cookies de personalización:</strong> Te permiten especificar o personalizar ciertas características del servicio, como el idioma o la configuración regional.</li>
-                          <li><strong>Cookies analíticas:</strong> Nos permiten contar el número de visitantes únicos y analizar cómo se utiliza nuestro servicio para medir el interés en él o en áreas específicas. Por ejemplo, nos ayudan a identificar las regiones geográficas desde donde se conectan más usuarios o qué productos o servicios son más populares.</li>
-                          <li><strong>Cookies publicitarias:</strong> Se utilizan para gestionar los espacios publicitarios en nuestro servicio.</li>
-                          <li><strong>Cookies de publicidad comportamental:</strong> Almacenan información sobre tu comportamiento en nuestro servicio para mostrarte publicidad personalizada.</li>
+                          <li>Cookies técnicas: Son esenciales y estrictamente necesarias para el correcto funcionamiento de nuestro servicio. Permiten el mantenimiento de la sesión, la gestión del tiempo de respuesta, el rendimiento y el uso de elementos de seguridad, entre otras funciones.</li>
+                          <li>Cookies de personalización: Te permiten especificar o personalizar ciertas características del servicio, como el idioma o la configuración regional.</li>
+                          <li>Cookies analíticas: Nos permiten contar el número de visitantes únicos y analizar cómo se utiliza nuestro servicio para medir el interés en él o en áreas específicas. Por ejemplo, nos ayudan a identificar las regiones geográficas desde donde se conectan más usuarios o qué productos o servicios son más populares.</li>
+                          <li>Cookies publicitarias: Se utilizan para gestionar los espacios publicitarios en nuestro servicio.</li>
+                          <li>Cookies de publicidad comportamental: Almacenan información sobre tu comportamiento en nuestro servicio para mostrarte publicidad personalizada.</li>
                         </ul>
                       </div>
                     </div>
@@ -531,7 +531,7 @@ export default function AvisosLegales() {
                       ¿Quién es el responsable de este servicio?
                     </h4>
                     <p className="mb-4">
-                      Este servicio es responsabilidad de <strong>Asesores Legales Mirai, Sociedad Civil</strong>, con 
+                      Este servicio es responsabilidad de Asesores Legales Mirai, Sociedad Civil, con 
                       domicilio en Córdoba 42, piso 5, Suite B, Alcaldía Cuauhtémoc, C.P. 06700, CDMX. La información 
                       obtenida a través de algunas de nuestras cookies se almacena en servidores de Google, ubicados en 
                       Estados Unidos. Es importante que sepas que la legislación de Estados Unidos no garantiza un nivel 
@@ -539,7 +539,7 @@ export default function AvisosLegales() {
                     </p>
                     <p className="mb-4">
                       Al consentir el uso de estas cookies, también consientes la transferencia internacional de tus datos 
-                      personales a Google en Estados Unidos. Google está adscrito a la herramienta <strong>Web Choices</strong>, 
+                      personales a Google en Estados Unidos. Google está adscrito a la herramienta Web Choices, 
                       que te permite deshabilitar el uso de sus cookies: http://optout.aboutads.info/. Además, puedes evitar 
                       la instalación de cookies de Google Analytics utilizando la extensión específica para tu navegador.
                     </p>
@@ -592,9 +592,9 @@ export default function AvisosLegales() {
 
                   <div className="pt-4">
                     <p className="text-xs md:text-sm text-black">
-                      <strong>Responsable:</strong> Asesores Legales Mirai, Sociedad Civil<br/>
-                      <strong>Domicilio:</strong> Córdoba 42, piso 5, Suite B, Alcaldía Cuauhtémoc, C.P. 06700, CDMX<br/>
-                      <strong>Contacto:</strong> Para más información, puedes contactarnos en <strong>contacto@mirai.legal</strong>
+                      Responsable: Asesores Legales Mirai, Sociedad Civil<br/>
+                      Domicilio: Córdoba 42, piso 5, Suite B, Alcaldía Cuauhtémoc, C.P. 06700, CDMX<br/>
+                      Contacto: Para más información, puedes contactarnos en contacto@mirai.legal
                     </p>
                   </div>
                 </div>
