@@ -61,7 +61,7 @@ export default function CardService({ iconPath, title, subtitle, content, button
       {/* Subtítulo */}
       {subtitle && (
         <div 
-          className="mb-6"
+          className="mb-2"
           style={{
             fontFamily: 'Mulish',
             fontWeight: 400,

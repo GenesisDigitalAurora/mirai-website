@@ -2,34 +2,12 @@
   "practicas": [
     {
       "iconPath": "/icons/practicas/001.svg",
-      "title": "**ASG / ESG**",
+      "title": "**ASG**",
       "subtitle": "(Ambiental, Social y de Gobernanza)",
-      "content": "Asesoría en integración de criterios ESG: responsabilidad ambiental, social y gobernanza. Incluye políticas, capacitación y alineación con estándares internacionales para modelos de negocio sostenibles.",
+      "content": "Asesoría en el cumplimiento de criterios ASG. Desarrollo de políticas, reportes de sostenibilidad, capacitación y cumplimiento de estándares internacionales para modelos de negocio sostenibles.",
       "detailedContent": "ASGDetail",
       "partners": ["Luis Cuevas"],
       "footerText": "En Mirai Abogados, estamos listos para ser tu socio estratégico en el camino hacia la sostenibilidad y llevarlo a otro nivel. ¿Cómo te ayudamos a ser una entidad sostenible y socialmente responsable?"
-    },
-    {
-      "iconPath": "/icons/practicas/002.svg",
-      "title": "**Derecho Bancario, Bursátil y Financiero**",
-      "content": "Creación de productos financieros, licencias, cumplimiento normativo y prevención de lavado. Estructuración de financiamientos y controles internos para instituciones.",
-      "detailedContent": "DerechoBancarioDetail",
-      "partners": ["Marco A. Pérez Alcalde", "Israel Alfaro"],
-      "footerText": "En Mirai Abogados, estamos listos para ofrecerte las soluciones para prosperar en el desafiante entorno financiero. ¿Cómo te ayudamos a optimizar tus productos y servicios financieros?"
-    },
-    {
-      "iconPath": "/icons/practicas/003.svg",
-      "title": "**Derecho Laboral**",
-      "content": "Gestión de relaciones laborales, cumplimiento IMSS/INFONAVIT y litigios. Estrategias para reducir riesgos y mejorar clima laboral.",
-      "detailedContent": "DerechoLaboralDetail",
-      "partners": ["Enrique Rivera"]
-    },
-    {
-      "iconPath": "/icons/practicas/004.svg",
-      "title": "**Life Science & Derecho Regulatorio**",
-      "content": "Asesoría sanitaria para farmacéuticas y salud: registros COFEPRIS, cumplimiento y acceso a mercados.",
-      "detailedContent": "LifeScienceDetail",
-      "partners": ["Luis Cuevas"]
     },
     {
       "iconPath": "/icons/practicas/005.svg",
@@ -40,11 +18,75 @@
       "footerText": "En MIRAI Abogados, te acompañamos en el <strong>comercio internacional</strong> para que aproveches todas las oportunidades globales. <strong>¿Quieres optimizar tus operaciones de comercio exterior?</strong>"
     },
     {
+      "iconPath": "/icons/practicas/010.svg",
+      "title": "**Contractual**",
+      "content": "Asesoría en diseño y negociación de contratos comerciales y financieros. Blindaje contra riesgos, autorización CNBV y estructuración para maximizar oportunidades y rentabilidad.",
+      "detailedContent": "ContractualDetail",
+      "partners": ["Marco A. Pérez Alcalde", "Marco Zavaleta", "Karen Hernández", "Héctor Guerrero"]
+    },
+    {
+      "iconPath": "/icons/practicas/014.svg",
+      "title": "**Derecho Administrativo y Constitucional**",
+      "content": "Representación ante autoridades, defensa en juicios de nulidad y amparo. Asesoría en licitaciones, permisos y procedimientos sancionadores con enfoque proactivo.",
+      "detailedContent": "DerechoAdministrativoDetail",
+      "partners": ["Marco Zavaleta", "Juan Carlos Peraza"]
+    },
+    {
+      "iconPath": "/icons/practicas/018.svg",
+      "title": "**Derecho Agrario**",
+      "content": "Asesoría en regulación agraria, derechos hídricos, permisos ambientales y exportación. Gestión de tenencia de tierra, ejidos y certificaciones de sustentabilidad.",
+      "detailedContent": "DerechoAgrarioDetail",
+      "partners": ["Marco Zavaleta"]
+    },
+    {
+      "iconPath": "/icons/practicas/022.svg",
+      "title": "**Derecho Ambiental**",
+      "content": "Gestión sostenible y cumplimiento normativo. Auditorías, permisos ambientales, políticas y integración de criterios para ventaja competitiva y reputación.",
+      "detailedContent": "DerechoAmbientalDetail",
+      "partners": ["Luis Cuevas", "Karen Hernández"]
+    },
+    {
+      "iconPath": "/icons/practicas/002.svg",
+      "title": "**Derecho Bancario, Bursátil y Financiero**",
+      "content": "Asesoría en productos financieros, gestión de licencias, cumplimiento normativo y prevención de lavado de dinero. Estructuración de financiamientos y controles internos para instituciones.",
+      "detailedContent": "DerechoBancarioDetail",
+      "partners": ["Marco A. Pérez Alcalde", "Israel Alfaro"],
+      "footerText": "En Mirai Abogados, estamos listos para ofrecerte las soluciones para prosperar en el desafiante entorno financiero. ¿Cómo te ayudamos a optimizar tus productos y servicios financieros?"
+    },
+    {
       "iconPath": "/icons/practicas/006.svg",
       "title": "**Derecho Corporativo**",
       "content": "Estructuración societaria, fusiones, gobernanza y cumplimiento. Soporte en inversiones, due diligence y estrategias para expansión empresarial.",
       "detailedContent": "DerechoCorporativoDetail",
       "partners": ["Alexandra Carbajal"]
+    },
+    {
+      "iconPath": "/icons/practicas/015.svg",
+      "title": "**Derecho Familiar**",
+      "content": "Soluciones en divorcio, custodia, pensión y adopción. Mediación y defensa judicial con enfoque sensible y duradero.",
+      "detailedContent": "DerechoFamiliarDetail",
+      "partners": ["Alexandra Carbajal", "Marco Zavaleta", "Jaime Pacheco"]
+    },
+    {
+      "iconPath": "/icons/practicas/019.svg",
+      "title": "**Derecho Fiscal**",
+      "content": "Planeación tributaria, cumplimiento y defensa ante SAT. Estrategias para reducir impuestos y manejo de auditorías fiscales.",
+      "detailedContent": "DerechoFiscalDetail",
+      "partners": ["José Ramón Yáñez"]
+    },
+    {
+      "iconPath": "/icons/practicas/023.svg",
+      "title": "**Derecho Inmobiliario**",
+      "content": "Apoyo en proyectos inmobiliarios: due diligence, permisos y contratos. Certeza jurídica para desarrolladores e inversionistas.",
+      "detailedContent": "DerechoInmobiliarioDetail",
+      "partners": ["Marco Zavaleta", "Héctor Guerrero", "Alexandra Carbajal"]
+    },
+    {
+      "iconPath": "/icons/practicas/003.svg",
+      "title": "**Derecho Laboral**",
+      "content": "Gestión de relaciones laborales, cumplimiento con el  IMSS e INFONAVIT y defensa a través de litigios. Desarrollo de estrategias para reducir riesgos y mejorar el clima organizacional.",
+      "detailedContent": "DerechoLaboralDetail",
+      "partners": ["Enrique Rivera"]
     },
     {
       "iconPath": "/icons/practicas/007.svg",
@@ -54,25 +96,11 @@
       "partners": ["Israel Pérez Correa"]
     },
     {
-      "iconPath": "/icons/practicas/008.svg",
-      "title": "**Fintech**",
-      "content": "Asesoría regulatoria para fintech: licenciamiento, cumplimiento y productos innovadores. Soporte en inversión y defensa.",
-      "detailedContent": "FintechDetail",
-      "partners": ["Marco A. Pérez Alcalde", "Marco Zavaleta"]
-    },
-    {
-      "iconPath": "/icons/practicas/009.svg",
-      "title": "**Litigio y Consultoría en Materia Civil y Mercantil**",
-      "content": "Redacción de contratos y resolución de controversias civiles/mercantiles. Representación judicial estratégica.",
-      "detailedContent": "LitigioCivilMercantilDetail",
-      "partners": ["Marco Zavaleta", "Héctor Guerrero", "Édgar Pilar"]
-    },
-    {
-      "iconPath": "/icons/practicas/010.svg",
-      "title": "**Contractual**",
-      "content": "Asesoría en diseño y negociación de contratos comerciales y financieros. Blindaje contra riesgos, autorización CNBV y estructuración para maximizar oportunidades y rentabilidad.",
-      "detailedContent": "ContractualDetail",
-      "partners": ["Marco A. Pérez Alcalde", "Marco Zavaleta", "Karen Hernández", "Héctor Guerrero"]
+      "iconPath": "/icons/practicas/012.svg",
+      "title": "**Derecho Patrimonial**",
+      "content": "Protección y transmisión de patrimonio: testamentos, fideicomisos y sucesiones. Planificación para evitar conflictos.",
+      "detailedContent": "DerechoPatrimonialDetail",
+      "partners": ["Alexandra Carbajal", "Israel Pérez Correa", "Marco Zavaleta", "Jaime Pacheco"]
     },
     {
       "iconPath": "/icons/practicas/011.svg",
@@ -83,38 +111,52 @@
       "partners": ["Marco A. Pérez Alcalde", "Marco Zavaleta", "Arturo Ávalos", "Édgar Pilar"]
     },
     {
-      "iconPath": "/icons/practicas/012.svg",
-      "title": "**Derecho Patrimonial**",
-      "content": "Protección y transmisión de patrimonio: testamentos, fideicomisos y sucesiones. Planificación para evitar conflictos.",
-      "detailedContent": "DerechoPatrimonialDetail",
-      "partners": ["Alexandra Carbajal", "Israel Pérez Correa", "Marco Zavaleta", "Jaime Pacheco"]
+      "iconPath": "/icons/practicas/016.svg",
+      "title": "**Entretenimiento, Deportes e Industrias Creativas**",
+      "content": "Protección de derechos y contratos para artistas y deportistas. Explotación de activos para maximizar valor económico.",
+      "detailedContent": "EntretenimientoDetail",
+      "partners": ["Israel Pérez Correa"]
+    },
+    {
+      "iconPath": "/icons/practicas/020.svg",
+      "title": "**Ética y Compliance**",
+      "content": "Sistemas de cumplimiento, códigos éticos y auditorías. Prevención de riesgos y gestión de crisis.",
+      "detailedContent": "EticaComplianceDetail",
+      "partners": ["Luis Cuevas", "Israel Alfaro"]
+    },
+    {
+      "iconPath": "/icons/practicas/008.svg",
+      "title": "**Fintech**",
+      "content": "Asesoría regulatoria para fintech: licenciamiento, cumplimiento y productos innovadores. Soporte en inversión y defensa.",
+      "detailedContent": "FintechDetail",
+      "partners": ["Marco A. Pérez Alcalde", "Marco Zavaleta"]
+    },
+    {
+      "iconPath": "/icons/practicas/024.svg",
+      "title": "**LegalTech**",
+      "content": "Plataformas para automatización legal y cumplimiento. Soluciones RegTech para monitoreo normativo y eficiencia.",
+      "detailedContent": "LegalTechDetail",
+      "partners": ["Luis Cuevas", "Marco A. Pérez Alcalde", "Marco Zavaleta"]
+    },
+    {
+      "iconPath": "/icons/practicas/004.svg",
+      "title": "**Life Science & Derecho Regulatorio**",
+      "content": "Asesoría legal, sanitaria y de cumplimiento para farmacéuticas y empresas dedicadas a la salud. Gestión de registros ante COFEPRIS, cumplimiento de normas y códigos, así como el acceso a diversos mercados.",
+      "detailedContent": "LifeScienceDetail",
+      "partners": ["Luis Cuevas"]
+    },
+    {
+      "iconPath": "/icons/practicas/009.svg",
+      "title": "**Litigio y Consultoría en Materia Civil y Mercantil**",
+      "content": "Redacción de contratos y resolución de controversias civiles/mercantiles. Representación judicial estratégica.",
+      "detailedContent": "LitigioCivilMercantilDetail",
+      "partners": ["Marco Zavaleta", "Héctor Guerrero", "Édgar Pilar"]
     },
     {
       "iconPath": "/icons/practicas/013.svg",
       "title": "**Propiedad Intelectual**",
       "content": "Protección de marcas, patentes y derechos de autor. Administración y defensa de activos intangibles.",
       "detailedContent": "PropiedadIntelectualDetail",
-      "partners": ["Israel Pérez Correa"]
-    },
-    {
-      "iconPath": "/icons/practicas/014.svg",
-      "title": "**Derecho Administrativo y Constitucional**",
-      "content": "Representación ante autoridades, defensa en juicios de nulidad y amparo. Asesoría en licitaciones, permisos y procedimientos sancionadores con enfoque proactivo.",
-      "detailedContent": "DerechoAdministrativoDetail",
-      "partners": ["Marco Zavaleta", "Juan Carlos Peraza"]
-    },
-    {
-      "iconPath": "/icons/practicas/015.svg",
-      "title": "**Derecho Familiar**",
-      "content": "Soluciones en divorcio, custodia, pensión y adopción. Mediación y defensa judicial con enfoque sensible y duradero.",
-      "detailedContent": "DerechoFamiliarDetail",
-      "partners": ["Alexandra Carbajal", "Marco Zavaleta", "Jaime Pacheco"]
-    },
-    {
-      "iconPath": "/icons/practicas/016.svg",
-      "title": "**Entretenimiento, Deportes e Industrias Creativas**",
-      "content": "Protección de derechos y contratos para artistas y deportistas. Explotación de activos para maximizar valor económico.",
-      "detailedContent": "EntretenimientoDetail",
       "partners": ["Israel Pérez Correa"]
     },
     {
@@ -125,56 +167,21 @@
       "partners": ["Marco Zavaleta"]
     },
     {
-      "iconPath": "/icons/practicas/018.svg",
-      "title": "**Derecho Agrario**",
-      "content": "Asesoría en regulación agraria, derechos hídricos, permisos ambientales y exportación. Gestión de tenencia de tierra, ejidos y certificaciones de sustentabilidad.",
-      "detailedContent": "DerechoAgrarioDetail",
-      "partners": ["Marco Zavaleta"]
-    },
-    {
-      "iconPath": "/icons/practicas/019.svg",
-      "title": "**Derecho Fiscal**",
-      "content": "Planeación tributaria, cumplimiento y defensa ante SAT. Estrategias para reducir impuestos y manejo de auditorías fiscales.",
-      "detailedContent": "DerechoFiscalDetail",
-      "partners": ["José Ramón Yáñez"]
-    },
-    {
-      "iconPath": "/icons/practicas/020.svg",
-      "title": "**Ética y Compliance**",
-      "content": "Sistemas de cumplimiento, códigos éticos y auditorías. Prevención de riesgos y gestión de crisis.",
-      "detailedContent": "EticaComplianceDetail",
-      "partners": ["Luis Cuevas", "Israel Alfaro"]
-    },
-    {
       "iconPath": "/icons/practicas/021.svg",
       "title": "**Traducciones Legales**",
       "content": "Traducciones certificadas inglés-español por peritos. Precisión en terminología jurídica para transacciones globales.",
       "detailedContent": "TraduccionesLegalesDetail",
       "partners": ["Karen Hernández"]
-    },
-    {
-      "iconPath": "/icons/practicas/022.svg",
-      "title": "**Derecho Ambiental**",
-      "content": "Gestión sostenible y cumplimiento normativo. Auditorías, permisos ambientales, políticas y integración de criterios para ventaja competitiva y reputación.",
-      "detailedContent": "DerechoAmbientalDetail",
-      "partners": ["Luis Cuevas", "Karen Hernández"]
-    },
-    {
-      "iconPath": "/icons/practicas/023.svg",
-      "title": "**Derecho Inmobiliario**",
-      "content": "Apoyo en proyectos inmobiliarios: due diligence, permisos y contratos. Certeza jurídica para desarrolladores e inversionistas.",
-      "detailedContent": "DerechoInmobiliarioDetail",
-      "partners": ["Marco Zavaleta", "Héctor Guerrero", "Alexandra Carbajal"]
-    },
-    {
-      "iconPath": "/icons/practicas/024.svg",
-      "title": "**LegalTech**",
-      "content": "Plataformas para automatización legal y cumplimiento. Soluciones RegTech para monitoreo normativo y eficiencia.",
-      "detailedContent": "LegalTechDetail",
-      "partners": ["Luis Cuevas", "Marco A. Pérez Alcalde", "Marco Zavaleta"]
-    }  
+    }
   ],
   "industrias": [
+    {
+      "iconPath": "/icons/industrias/007.svg",
+      "title": "**Agroindustria**",
+      "content": "Asesoría legal en comercio internacional, cumplimiento, inversiones rurales, cumplimiento ambiental, derechos de agua y certificaciones de sostenibilidad en agroindustria.",
+      "detailedContent": "AgroindustriaDetail",
+      "partners": ["Luis Cuevas", "Marco Zavaleta", "Karen Hernández"]
+    },
     {
       "iconPath": "/icons/industrias/001.svg",
       "title": "**Alimentos y Bebidas**",
@@ -191,18 +198,11 @@
       "partners": ["Israel Alfaro"]
     },
     {
-      "iconPath": "/icons/industrias/007.svg",
-      "title": "**Agroindustria**",
-      "content": "Asesoría legal en comercio internacional, cumplimiento, inversiones rurales, cumplimiento ambiental, derechos de agua y certificaciones de sostenibilidad en agroindustria.",
-      "detailedContent": "AgroindustriaDetail",
-      "partners": ["Luis Cuevas", "Marco Zavaleta", "Karen Hernández"]
-    },
-    {
-      "iconPath": "/icons/industrias/010.svg",
-      "title": "**FMCG**",
-      "content": "Servicios legales en cumplimiento regulatorio, sostenibilidad, ética, comunicación, prevención de contingencias y protección de reputación en la industria FMCG.",
-      "detailedContent": "FMCGDetail",
-      "partners": ["Luis Cuevas", "Marco Zavaleta", "Arturo Ávalos", "Edgar Pilar"]
+      "iconPath": "/icons/industrias/008.svg",
+      "title": "**Energía**",
+      "content": "Asesoría legal integral para proyectos energéticos, incluyendo cumplimiento ambiental, adherencia regulatoria y diseño de estructuras legales eficientes.",
+      "detailedContent": "EnergiaDetail",
+      "partners": ["Luis Cuevas"]
     },
     {
       "iconPath": "/icons/industrias/002.svg",
@@ -219,11 +219,11 @@
       "partners": ["Marco A. Pérez Alcalde", "Israel Alfaro"]
     },
     {
-      "iconPath": "/icons/industrias/008.svg",
-      "title": "**Energía**",
-      "content": "Asesoría legal integral para proyectos energéticos, incluyendo cumplimiento ambiental, adherencia regulatoria y diseño de estructuras legales eficientes.",
-      "detailedContent": "EnergiaDetail",
-      "partners": ["Luis Cuevas"]
+      "iconPath": "/icons/industrias/010.svg",
+      "title": "**FMCG**",
+      "content": "Servicios legales en cumplimiento regulatorio, sostenibilidad, ética, comunicación, prevención de contingencias y protección de reputación en la industria FMCG.",
+      "detailedContent": "FMCGDetail",
+      "partners": ["Luis Cuevas", "Marco Zavaleta", "Arturo Ávalos", "Edgar Pilar"]
     },
     {
       "iconPath": "/icons/industrias/011.svg",

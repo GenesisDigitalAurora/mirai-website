@@ -48,7 +48,8 @@ export default function ServicesSection({ onViewMore }: ServicesSectionProps) {
   const currentServices = servicesData[activeTab] as ServiceData[];
   
   // Color dinámico según la tab activa
-  const titleColor = activeTab === 'practicas' ? '#40B637' : '#921B95';
+  // const titleColor = activeTab === 'practicas' ? '#40B637' : '#921B95';
+  const titleColor = activeTab === 'practicas' ? '#4a5565' : '#4a5565';
 
   // Función para manejar la apertura del modal
   const handleViewMoreClick = (service: ServiceData) => {
