@@ -29,7 +29,7 @@ export default function ProBono() {
                 className="text-4xl md:text-5xl font-bold mb-4"
                 style={{ color: '#921B95' }}
               >
-                Nueva Sección
+                Pro Bono
               </h1>
               
               {/* Línea horizontal verde */}
