@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import LanguageSelector from './LanguageSelector';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -75,10 +76,11 @@ export default function Header() {
   ];
 
   return (
-    <header 
-      className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-lg"
-      style={{ fontFamily: 'Mulish, sans-serif' }}
-    >
+    <>
+      <header 
+        className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-lg"
+        style={{ fontFamily: 'Mulish, sans-serif' }}
+      >
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         {/* Desktop Layout */}
         <div className="hidden lg:grid grid-cols-3 items-center py-4 relative">
@@ -255,10 +257,26 @@ export default function Header() {
                   )
                 ))}
               </div>
+
+              {/* Selector de idioma en mobile */}
+              <div className="mt-4 pt-4 border-t border-primary-400">
+                <p className="text-primary-200 text-xs font-semibold uppercase tracking-wide mb-2 px-3">
+                  Idioma
+                </p>
+                <div className="px-3 py-2">
+                  <LanguageSelector />
+                </div>
+              </div>
             </div>
           </div>
         )}
       </div>
     </header>
+    
+    {/* Language Selector - Fixed position below header, top right */}
+    <div className="fixed top-20 right-4 z-40 hidden lg:block">
+      <LanguageSelector />
+    </div>
+    </>
   );
 }
