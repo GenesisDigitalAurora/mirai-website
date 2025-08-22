@@ -46,10 +46,10 @@
       "linkedin": "https://www.linkedin.com/in/israelperezc/",
       "bio": "Israel Pérez Correa cuenta con 25 años de experiencia y es socio fundador en MIRAI Abogados, donde está a cargo de la oficina de Monterrey, Nuevo León y lidera los grupos de práctica de Propiedad Intelectual, Derecho del Entretenimiento y Derecho Migratorio. Su vasta experiencia abarca la protección, administración, defensa y monetización de todo tipo de activos intangibles, desde signos distintivos, invenciones, obras artísticas y derechos afines y conexos como los derechos de imagen, hasta la implicación de estos en modelos de franquicia, fusiones, acuerdos de co-inversión y la comunicación y explotación de los mismos en medios tradicionales o digitales. La práctica de Israel está constantemente ligada a las industrias creativas o billboard industries, desde la arena del entretenimiento y la deportiva hasta el campo del arte o la moda. Su práctica incluye el cuidado, negociación y defensa de temas ligados a la música, las producciones audiovisuales o la representación del talento, ya sea que se trate de deportistas, o bien de artistas, autores, intérpretes, actores o ejecutantes. Israel también participa activamente en operaciones transaccionales y constantemente, en conjunto con otros miembros del equipo, soporta a negocios familiares en los procesos de institucionalización y sostenibilidad que garanticen la continuidad de los negocios a través de las transiciones generacionales. Israel, junto con las prácticas de atención al consumidor y regulatorio sanitario de la firma, también garantiza la legalidad de frases publicitarias, la información comercial de productos y servicios y el etiquetado de productos, así como el cumplimiento de lineamientos en campañas de marketing en el entorno digital, y la garantía de derechos mediante la negociación y estructuración de contratos de publicidad y patrocinio.",
       "hitosProf": [
-        "Maestría en Derecho de la Propiedad Industrial, Derecho de autor y nuevas tecnologías por la Universidad Panamericana.",
-        "Durante el 2024 fue el coordinador del Comité de Propiedad Intelectual de la Asociación Nacional de Abogados de Empresa, capítulo Nuevo León.",
-        "Consultor en estructuras de inversión y gobierno societario: Asesoría clave para la optimización de inversiones y la administración empresarial.",
-        "Licenciado en Derecho, Universidad Iberoamericana: Formación académica integral en derecho."
+        "Licenciado en Derecho por la Universidad La Salle con Maestría en Derecho de la Propiedad Industrial, Derecho de Autor y Nuevas Tecnologías por la Universidad Panamericana, graduándose magna cumple laude.",
+        "Autor de una veintena de artículos ligados a su práctica que han sido publicados en revistas especializadas tanto en México como en el extranjero",
+        "Durante 2024 fue el coordinador del Comité de Propiedad Intelectual de la Asociación Nacional de Abogados de Empresa, capítulo Nuevo León",
+        "Israel ha sido reconocido como líder de su práctica por medios como World Intellectual Property Review y World Trademark Review."
       ],
       "practicas": ["Derecho Corporativo", "Derecho Migratorio", "Derecho Patrimonial", "Derecho Fiscal", "Entretenimiento, deportes e industrias creativas", "Propiedad Intelectual"],
       "industrias": ["Empresas familiares y patrimoniales", "ONGs, Fundaciones y Sector Cultural", "Real Estate y Desarrollo Inmobiliario", "Tecnología y Plataformas Digitales"],
@@ -142,6 +142,28 @@
     },
     {
       "id": 7,
+      "photo": "/teammembers/JoseRamon.webp",
+      "name": "José Ramón Yáñez",
+      "position": "Socio",
+      "email": "",
+      "bio": "José Ramón es abogado egresado de la Universidad Latinoamericana con más de dos décadas de experiencia en litigio fiscal, comercio exterior y derecho administrativo. A lo largo de su carrera ha representado a empresas nacionales e internacionales frente a autoridades como el Servicio de Administración Tributaria (SAT), el Tribunal Federal de Justicia Administrativa y el Poder Judicial Federal, obteniendo resultados que han significado importantes ahorros y beneficios estratégicos para sus clientes.Su experiencia se extiende a diversos sectores —alimentario, bienes de higiene y cuidado personal, transportación y logística, financiero, textil y seguridad privada— donde ha liderado procesos de defensa fiscal y celebrado Acuerdos Conclusivos ante la Procuraduría de la Defensa del Contribuyente, ofreciendo soluciones efectivas y prácticas.José Ramón combina una visión preventiva y correctiva del derecho, asegurando que cada asunto se atienda con rigurosidad técnica, cercanía y atención personalizada. Su compromiso es brindar a los clientes de Mirai la certeza jurídica necesaria para enfocarse en su crecimiento y operación, sin que los temas fiscales se conviertan en un obstáculo.",
+      "hitosProf": [],
+      "practicas": [
+        "Derecho Fiscal",
+        "Comercio Exterior",
+        "Derecho Administrativo y Constitucional"
+      ],
+      "industrias": [
+        "Alimentos y bebidas",
+        "Transportación y Logística",
+        "Bienes de higiene y cuidado personal",
+        "Industria Textil",
+        "Seguridad privada"
+      ],
+      "footerText": "José Ramón Yáñez combina más de dos décadas de experiencia en litigio fiscal con un enfoque estratégico y personalizado, brindando a nuestros clientes la certeza jurídica necesaria para su crecimiento empresarial."
+    },
+    {
+      "id": 8,
       "photo": "/teammembers/07.jpg",
       "name": "Juan Carlos Peraza",
       "position": "Socio",
@@ -164,7 +186,7 @@
       "footerText": "En MIRAI Abogados, Juan Carlos combina <strong>experiencia estratégica y liderazgo legal</strong> para enfrentar litigios de alta complejidad. <strong>¿Necesitas defensa en casos regulatorios o constitucionales?</strong>"
     },
     {
-      "id": 8,
+      "id": 9,
       "photo": "/teammembers/08.jpg",
       "name": "Arturo Ávalos",
       "position": "Counsel",
@@ -193,7 +215,7 @@
       "footerText": "En MIRAI Abogados, Arturo ofrece <strong>asesoría experta y estratégica</strong> en derecho administrativo y regulatorio. <strong>¿Necesitas un aliado en cumplimiento y defensa del consumidor?</strong>"
     },
     {
-      "id": 9,
+      "id": 10,
       "photo": "/teammembers/09.jpg",
       "name": "Héctor Guerrero",
       "position": "Counsel",
@@ -222,7 +244,7 @@
       "footerText": "En MIRAI Abogados, Héctor ofrece <strong>estrategias legales efectivas</strong> en litigio civil y mercantil. <strong>¿Buscas representación sólida en procedimientos judiciales de alto impacto?</strong>"
     },
     {
-      "id": 10,
+      "id": 11,
       "photo": "/teammembers/10.jpg",
       "name": "Karen Hernández",
       "position": "Counsel",
@@ -248,7 +270,7 @@
       "footerText": "En MIRAI Abogados, Karen ofrece <strong>asesoría preventiva y estratégica</strong> en contratos, litigio civil y derecho regulatorio. <strong>¿Buscas reducir riesgos legales con soluciones a la medida?</strong>"
     },
     {
-      "id": 11,
+      "id": 12,
       "photo": "/teammembers/11.jpg",
       "name": "Édgar Pilar",
       "position": "Counsel",
