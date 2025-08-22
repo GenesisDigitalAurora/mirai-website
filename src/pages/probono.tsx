@@ -94,7 +94,7 @@ export default function ProBono() {
                           Solicitud:
                         </h4>
                         <p className="text-gray-700">
-                          El interesado deberá llenar el breve <a href='#' className='underline'>formato de aplicación</a>.
+                          El interesado deberá llenar el breve <a href='https://docs.google.com/forms/d/e/1FAIpQLSdsHd_NbDQ7xwVsH2taAruQcbMOCdXEAJ4GXKTQObqhhEG-Pw/viewform' className='underline text-green-600' target='_blank'>formato de aplicación</a>.
                         </p>
                       </div>
                     </div>
