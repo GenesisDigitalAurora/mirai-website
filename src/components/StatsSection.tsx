@@ -100,7 +100,7 @@ export default function StatsSection() {
   const stats: StatItem[] = [
     { number: 20, label: 'Prácticas', prefix: '+' },
     { number: 500, label: 'Casos de éxito', prefix: '+' },
-    { number: 100, label: 'Clientes' }
+    { number: 100, label: 'Clientes', prefix: '+' }
   ];
 
   return (
@@ -109,7 +109,7 @@ export default function StatsSection() {
         {/* Grid de estadísticas */}
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center">
+            <div key={index} className={`text-center ${index === stats.length - 1 && stats.length % 2 !== 0 ? 'col-span-2 lg:col-span-1' : ''}`}>
               {/* Separador vertical para desktop (excepto el último) */}
               <div className="relative">
                 {/* Número animado */}
