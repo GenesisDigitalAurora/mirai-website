@@ -29,7 +29,7 @@ export default function ProBono() {
                 className="text-4xl md:text-5xl font-bold mb-4"
                 style={{ color: '#921B95' }}
               >
-                Pro Bono
+                COMPROMISO MIRAI
               </h1>
               
               {/* Línea horizontal verde */}
@@ -54,21 +54,21 @@ export default function ProBono() {
                 className="text-2xl md:text-3xl font-bold mb-6"
                 style={{ color: '#921B95' }}
               >
-                Trabajo Pro Bono
+                Apoyo Pro Bono Para Oranizaciones Civiles
               </h2>
 
               {/* Contenido Principal */}
               <div className="space-y-6 text-black leading-relaxed text-base md:text-lg">
                 <p>
-                  En Mirai Abogados creemos que el derecho es una herramienta para transformar la realidad y abrir oportunidades. Nuestro compromiso pro bono busca apoyar a Organizaciones de la Sociedad Civil, emprendedores sociales y proyectos con impacto positivo en México, brindándoles la asesoría legal necesaria para que puedan enfocarse en cumplir su misión sin que los temas legales se conviertan en un obstáculo.
+                  Nuestro Programa Compromiso Mirai busca apoyar a Organizaciones de la Sociedad Civil, emprendedores sociales y proyectos con impacto positivo en México, brindándoles asesoría legal necesaria para que puedan enfocarse en cumplir su misión sin que los temas legales se conviertan en un obstáculo. Creemos que el derecho es una herramienta para transformar la realidad y abrir oportunidades, hacemos esta labor sin fines de lucro.
                 </p>
 
                 <p>
-                  Sabemos que detrás de cada proyecto hay personas con visión, esfuerzo y un deseo de generar un mejor futuro. Con nuestro trabajo pro bono, buscamos fortalecerlos, darles certeza jurídica y acompañarlos en la construcción de organizaciones sólidas, transparentes y sostenibles.
+                En Mirai Abogados sabemos que detrás de cada proyecto hay personas con visión, esfuerzo y un deseo de generar un mejor futuro. Con nuestro trabajo pro bono, buscamos fortalecerlos, darles certeza jurídica y acompañarlos en la construcción de organizaciones sólidas, transparentes y sostenibles.
                 </p>
 
                 <p>
-                  De manera excepcional, y tras un análisis del caso, también podemos brindar asesoría a personas físicas que acrediten la falta de recursos económicos para acceder a servicios legales.
+                De manera excepcional, y tras un análisis del caso, también podemos brindar asesoría a personas físicas que acrediten la falta de recursos económicos para acceder a servicios legales.
                 </p>
 
                 {/* Sección ¿Cómo funciona? */}
@@ -94,7 +94,7 @@ export default function ProBono() {
                           Solicitud:
                         </h4>
                         <p className="text-gray-700">
-                          El interesado deberá el breve formato de aplicación, disponible más adelante.
+                          El interesado deberá llenar el breve <a href='#' className='underline'>formato de aplicación</a>.
                         </p>
                       </div>
                     </div>
@@ -111,7 +111,7 @@ export default function ProBono() {
                           Revisión inicial:
                         </h4>
                         <p className="text-gray-700">
-                          Un miembro de nuestro equipo se pondrá en contacto para conocer más detalles sobre el proyecto y los retos legales que enfrenta.
+                        Un miembro de nuestro equipo se pondrá en contacto para conocer más detalles sobre el proyecto y los retos legales que enfrenta.
                         </p>
                       </div>
                     </div>
@@ -128,7 +128,7 @@ export default function ProBono() {
                           Evaluación:
                         </h4>
                         <p className="text-gray-700">
-                          El caso será presentado a nuestro comité pro bono, quien definirá la viabilidad del apoyo y hará las recomendaciones necesarias.
+                        El caso será presentado a nuestro comité pro bono, quien definirá la viabilidad del apoyo y hará las recomendaciones necesarias.
                         </p>
                       </div>
                     </div>
@@ -145,7 +145,7 @@ export default function ProBono() {
                           Asignación:
                         </h4>
                         <p className="text-gray-700">
-                          Una vez aprobado, un abogado o equipo especializado de Mirai será designado para acompañar al beneficiario según sus necesidades legales.
+                        Una vez aprobado, un abogado o equipo especializado de Mirai será designado para acompañar al beneficiario según sus necesidades legales.
                         </p>
                       </div>
                     </div>
@@ -162,7 +162,7 @@ export default function ProBono() {
                           Cobertura de costos:
                         </h4>
                         <p className="text-gray-700">
-                          Los honorarios de los abogados son absorbidos por la firma. Los gastos externos (protocolización de documentos, traslados u otros costos asociados) deberán ser cubiertos por el beneficiario.
+                        Los honorarios de los abogados son absorbidos por la firma. Los gastos externos (protocolización de documentos, traslados u otros costos asociados) deberán ser cubiertos por el beneficiario.
                         </p>
                       </div>
                     </div>
@@ -178,7 +178,7 @@ export default function ProBono() {
                     Nuestro objetivo
                   </h3>
                   <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-                    Queremos que más proyectos con impacto positivo crezcan con bases sólidas, protegiendo el esfuerzo de quienes los lideran y asegurando que su contribución a la sociedad se mantenga en el tiempo. El derecho no debe ser una barrera, sino un puente hacia el cambio.
+                  Queremos que más proyectos con impacto positivo crezcan con bases sólidas, protegiendo el esfuerzo de quienes los lideran y asegurando que su contribución a la sociedad se mantenga en el tiempo. El derecho no debe ser una barrera, sino un puente hacia el cambio.
                   </p>
                 </div>
               </div>
