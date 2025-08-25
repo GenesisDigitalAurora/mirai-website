@@ -1,32 +1,30 @@
-import { useState } from 'react';
-
-interface FormData {
-  nombre: string;
-  apellido: string;
-  email: string;
-  telefono: string;
-}
+import { useContactForm } from '../hooks/useContactForm';
+import { SuccessMessage, ErrorMessage, FieldError, LoadingSpinner } from './FormMessage';
 
 export default function ContactSection() {
-  const [formData, setFormData] = useState<FormData>({
-    nombre: '',
-    apellido: '',
-    email: '',
-    telefono: ''
-  });
+  const {
+    formData,
+    status,
+    validation,
+    updateField,
+    handleFieldBlur,
+    submitForm,
+    clearMessages,
+    canSubmit
+  } = useContactForm();
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
+    updateField(name as keyof typeof formData, value);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleFieldBlurEvent = (fieldName: keyof typeof formData) => {
+    handleFieldBlur(fieldName);
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Formulario enviado:', formData);
-    // Aquí iría la lógica de envío del formulario
+    await submitForm();
   };
 
   return (
@@ -123,8 +121,26 @@ export default function ContactSection() {
               </p>
             </div>
 
+            {/* Mensajes de éxito y error */}
+            {status.successMessage && (
+              <SuccessMessage
+                message={status.successMessage}
+                isVisible={status.isSuccess}
+                onClose={clearMessages}
+                contactId={status.contactId}
+              />
+            )}
+
+            {status.error && (
+              <ErrorMessage
+                message={status.error}
+                isVisible={!!status.error}
+                onClose={clearMessages}
+              />
+            )}
+
             {/* Formulario */}
-            <form onSubmit={handleSubmit} className="w-full">
+            <form onSubmit={handleSubmit} className="w-full" noValidate>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 
                 {/* Nombre */}
@@ -147,16 +163,22 @@ export default function ContactSection() {
                     name="nombre"
                     value={formData.nombre}
                     onChange={handleInputChange}
+                    onBlur={() => handleFieldBlurEvent('nombre')}
                     placeholder="Nombre"
                     required
-                    className="w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 focus:ring-secondary"
+                    disabled={status.isLoading}
+                    className={`w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 transition-all ${
+                      validation.nombre 
+                        ? 'focus:ring-red-500 bg-red-50' 
+                        : 'focus:ring-secondary bg-white'
+                    } ${status.isLoading ? 'opacity-60 cursor-not-allowed' : ''}`}
                     style={{
                       fontFamily: 'Mulish',
                       fontSize: '16px',
-                      backgroundColor: '#ffffff',
                       color: '#000000'
                     }}
                   />
+                  <FieldError error={validation.nombre || ''} isVisible={!!validation.nombre} />
                 </div>
 
                 {/* Apellido */}
@@ -179,16 +201,22 @@ export default function ContactSection() {
                     name="apellido"
                     value={formData.apellido}
                     onChange={handleInputChange}
+                    onBlur={() => handleFieldBlurEvent('apellido')}
                     placeholder="Apellido"
                     required
-                    className="w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 focus:ring-secondary"
+                    disabled={status.isLoading}
+                    className={`w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 transition-all ${
+                      validation.apellido 
+                        ? 'focus:ring-red-500 bg-red-50' 
+                        : 'focus:ring-secondary bg-white'
+                    } ${status.isLoading ? 'opacity-60 cursor-not-allowed' : ''}`}
                     style={{
                       fontFamily: 'Mulish',
                       fontSize: '16px',
-                      backgroundColor: '#ffffff',
                       color: '#000000'
                     }}
                   />
+                  <FieldError error={validation.apellido || ''} isVisible={!!validation.apellido} />
                 </div>
 
                 {/* Email */}
@@ -211,16 +239,22 @@ export default function ContactSection() {
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
+                    onBlur={() => handleFieldBlurEvent('email')}
                     placeholder="Email"
                     required
-                    className="w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 focus:ring-secondary"
+                    disabled={status.isLoading}
+                    className={`w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 transition-all ${
+                      validation.email 
+                        ? 'focus:ring-red-500 bg-red-50' 
+                        : 'focus:ring-secondary bg-white'
+                    } ${status.isLoading ? 'opacity-60 cursor-not-allowed' : ''}`}
                     style={{
                       fontFamily: 'Mulish',
                       fontSize: '16px',
-                      backgroundColor: '#ffffff',
                       color: '#000000'
                     }}
                   />
+                  <FieldError error={validation.email || ''} isVisible={!!validation.email} />
                 </div>
 
                 {/* Teléfono */}
@@ -243,15 +277,21 @@ export default function ContactSection() {
                     name="telefono"
                     value={formData.telefono}
                     onChange={handleInputChange}
+                    onBlur={() => handleFieldBlurEvent('telefono')}
                     placeholder="Teléfono/Celular"
-                    className="w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 focus:ring-secondary"
+                    disabled={status.isLoading}
+                    className={`w-full px-4 py-3 rounded-md border-0 focus:outline-none focus:ring-2 transition-all ${
+                      validation.telefono 
+                        ? 'focus:ring-red-500 bg-red-50' 
+                        : 'focus:ring-secondary bg-white'
+                    } ${status.isLoading ? 'opacity-60 cursor-not-allowed' : ''}`}
                     style={{
                       fontFamily: 'Mulish',
                       fontSize: '16px',
-                      backgroundColor: '#ffffff',
                       color: '#000000'
                     }}
                   />
+                  <FieldError error={validation.telefono || ''} isVisible={!!validation.telefono} />
                 </div>
               </div>
 
@@ -259,25 +299,41 @@ export default function ContactSection() {
               <div className="flex justify-center mt-8">
                 <button
                   type="submit"
-                  className="px-8 py-3 rounded-md transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-secondary"
+                  disabled={status.isLoading || !canSubmit}
+                  className={`px-8 py-3 rounded-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-secondary ${
+                    status.isLoading || !canSubmit
+                      ? 'opacity-60 cursor-not-allowed' 
+                      : 'hover:scale-105 cursor-pointer'
+                  }`}
                   style={{
-                    backgroundColor: '#40B637',
+                    backgroundColor: status.isLoading || !canSubmit ? '#9CA3AF' : '#40B637',
                     color: '#ffffff',
                     fontFamily: 'Mulish',
                     fontWeight: 600,
                     fontSize: 'clamp(14px, 3vw, 16px)',
                     border: 'none',
-                    cursor: 'pointer',
-                    minWidth: '200px'
+                    minWidth: '200px',
+                    minHeight: '48px'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = '#369529';
+                    if (!status.isLoading && canSubmit) {
+                      e.currentTarget.style.backgroundColor = '#369529';
+                    }
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = '#40B637';
+                    if (!status.isLoading && canSubmit) {
+                      e.currentTarget.style.backgroundColor = '#40B637';
+                    }
                   }}
                 >
-                  Enviar
+                  {status.isLoading ? (
+                    <div className="flex items-center justify-center gap-2">
+                      <LoadingSpinner size="small" />
+                      <span>Enviando...</span>
+                    </div>
+                  ) : (
+                    'Enviar'
+                  )}
                 </button>
               </div>
             </form>
