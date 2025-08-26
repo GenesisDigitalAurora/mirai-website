@@ -19,8 +19,8 @@ export default function SEOMetadata({
   title = "MIRAI - Firma de Abogados en México | Asesoría Legal Especializada",
   description = "MIRAI es una firma de abogados líder en México, especializada en derecho corporativo, comercio exterior, propiedad intelectual y más. Asesoría legal personalizada para empresas e individuos.",
   keywords = "abogados México, firma legal, derecho corporativo, comercio exterior, propiedad intelectual, asesoría legal, bufete abogados, legal México, MIRAI abogados",
-  url = "https://mirai.com",
-  image = "https://mirai.com/MiraiShareImage.jpg",
+  url = "https://mirai.legal",
+  image = "https://mirai.legal/MiraiShareImage.jpg",
   type = "website",
   author = "MIRAI - Asesores Legales Mirai, S.C.",
   publishedTime,
@@ -104,7 +104,7 @@ export default function SEOMetadata({
             "alternateName": "MIRAI Abogados",
             "description": description,
             "url": canonicalUrl,
-            "logo": "https://mirai.com/MIRAI_MainLogo.svg",
+            "logo": "https://mirai.legal/MIRAI_MainLogo.svg",
             "image": image,
             "telephone": "+52-55-5555-5555", // Actualizar con el teléfono real
             "address": {
