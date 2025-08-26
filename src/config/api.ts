@@ -5,13 +5,13 @@
 // URLs del API según el entorno
 const API_CONFIG = {
   development: {
-    baseUrl: 'https://pi8fxv2v48.execute-api.us-east-1.amazonaws.com/dev',
+    baseUrl: 'https://b6ktmutk57.execute-api.us-east-1.amazonaws.com/dev',
     endpoints: {
       contact: '/contact'
     }
   },
   production: {
-    baseUrl: 'https://eezrxweqo6.execute-api.us-east-1.amazonaws.com/prod',
+    baseUrl: 'https://q28rf6zalk.execute-api.us-east-1.amazonaws.com/prod',
     endpoints: {
       contact: '/contact'
     }

@@ -1,5 +1,5 @@
-import Head from 'next/head';
 import Link from 'next/link';
+import SEOMetadata from '@/components/SEOMetadata';
 import { useRouter } from 'next/router';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -27,12 +27,12 @@ export default function Custom404() {
 
   return (
     <>
-      <Head>
-        <title>Página no encontrada - MIRAI</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="La página que buscas no existe. Explora las secciones de MIRAI - Firma de abogados en México" />
-        <meta name="robots" content="noindex, nofollow" />
-      </Head>
+      <SEOMetadata
+        title="Página no encontrada - Error 404"
+        description="La página que buscas no existe. Explora las secciones principales de MIRAI - Firma de abogados especializada en México."
+        url="https://mirai.com/404"
+        noIndex={true}
+      />
 
       <div className="min-h-screen bg-white flex flex-col" style={{ fontFamily: 'Mulish, sans-serif' }}>
         {/* Header */}

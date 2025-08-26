@@ -4,8 +4,8 @@
 # ------------------------------------------
 
 # CONFIGURACIÓN
-$bucketName = "mirai.legal"
-$cloudfrontDistributionId = "E112UU0DFNXIG6"
+$bucketName = "mirai-legal"
+$cloudfrontDistributionId = "E445QI7LWZ0GQ"
 
 # Paso 1: Compilar
 Write-Host "Ejecutando: npm run build..." -ForegroundColor Yellow

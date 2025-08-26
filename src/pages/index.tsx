@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Head from 'next/head';
 import Header from '@/components/Header';
+import SEOMetadata from '@/components/SEOMetadata';
 import VideoBanner from '@/components/VideoBanner';
 import IntroSection from '@/components/IntroSection';
 import StatsSection from '@/components/StatsSection';
@@ -213,15 +213,12 @@ export default function Home() {
   };
   return (
     <>
-      <Head>
-        <title>MIRAI - Página Principal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="MIRAI -  Firma de abogados en México" />
-        <meta property="og:title" content="MIRAI - Firma de abogados en México" />
-        <meta property="og:description" content="MIRAI -  Firma de abogados en México" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mirai.com" />
-      </Head>
+      <SEOMetadata
+        title="MIRAI - Firma de Abogados en México | Asesoría Legal Especializada"
+        description="MIRAI es una firma de abogados líder en México, especializada en derecho corporativo, comercio exterior, propiedad intelectual y más. Asesoría legal personalizada para empresas e individuos."
+        url="https://mirai.com"
+        keywords="abogados México, firma legal, derecho corporativo, comercio exterior, propiedad intelectual, asesoría legal, bufete abogados, legal México, MIRAI abogados"
+      />
 
       <div className="min-h-screen bg-white" style={{ fontFamily: 'Mulish, sans-serif' }}>
         {/* Header */}

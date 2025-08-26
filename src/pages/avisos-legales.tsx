@@ -1,19 +1,17 @@
-import Head from 'next/head';
 import Header from '@/components/Header';
+import SEOMetadata from '@/components/SEOMetadata';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function AvisosLegales() {
   return (
     <>
-      <Head>
-        <title>Avisos Legales - MIRAI</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Avisos legales, condiciones de uso, aviso de privacidad y política de cookies de MIRAI" />
-        <meta property="og:title" content="Avisos Legales - MIRAI" />
-        <meta property="og:description" content="Avisos legales, condiciones de uso, aviso de privacidad y política de cookies de MIRAI" />
-        <meta property="og:type" content="website" />
-      </Head>
+      <SEOMetadata
+        title="Avisos Legales - MIRAI"
+        description="Consulta nuestros avisos legales, condiciones de uso, aviso de privacidad integral y política de cookies. Transparencia y cumplimiento legal en MIRAI."
+        url="https://mirai.com/avisos-legales"
+        keywords="avisos legales MIRAI, condiciones uso, privacidad, cookies, términos legales, política privacidad México"
+      />
 
       <div className="min-h-screen bg-white" style={{ fontFamily: 'Mulish, sans-serif' }}>
         {/* Header */}

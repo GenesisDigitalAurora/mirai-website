@@ -1,5 +1,5 @@
-import Head from 'next/head';
 import Header from '@/components/Header';
+import SEOMetadata from '@/components/SEOMetadata';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import VideoProbonoHeroBanner from '@/components/VideoProbonoHeroBanner';
@@ -9,14 +9,12 @@ import ObjectiveSection from '@/components/ObjectiveSection';
 export default function ProBono() {
   return (
     <>
-      <Head>
-        <title>Pro Bono - MIRAI</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Programa Pro Bono de MIRAI - Apoyo legal para organizaciones sociales y proyectos de impacto positivo en México" />
-        <meta property="og:title" content="Pro Bono - MIRAI" />
-        <meta property="og:description" content="Programa Pro Bono de MIRAI - Apoyo legal para organizaciones sociales y proyectos de impacto positivo en México" />
-        <meta property="og:type" content="website" />
-      </Head>
+      <SEOMetadata
+        title="Programa Pro Bono - MIRAI"
+        description="Compromiso Mirai: Programa Pro Bono que apoya a organizaciones sociales, emprendedores y proyectos de impacto positivo en México con asesoría legal gratuita."
+        url="https://mirai.com/probono"
+        keywords="pro bono México, asesoría legal gratuita, organizaciones sociales, emprendedores sociales, responsabilidad social, MIRAI pro bono, apoyo legal ONGs"
+      />
 
       <div className="min-h-screen bg-white" style={{ fontFamily: 'Mulish, sans-serif' }}>
         

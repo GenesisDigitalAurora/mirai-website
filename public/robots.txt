@@ -1,0 +1,51 @@
+# robots.txt para MIRAI - Firma de Abogados
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mirai.com/sitemap.xml
+
+# Páginas que no deben indexarse
+Disallow: /login
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Archivos y directorios comunes que no deben indexarse
+Disallow: *.pdf$
+Disallow: /tmp/
+Disallow: /temp/
+
+# Permitir acceso a archivos estáticos importantes
+Allow: /favicon.ico
+Allow: /robots.txt
+Allow: /sitemap.xml
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Configuración específica para bots importantes
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Crawl-delay para otros bots
+User-agent: *
+Crawl-delay: 1
