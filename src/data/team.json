@@ -24,7 +24,7 @@
       "photo": "/teammembers/02.jpg",
       "name": "Luis Cuevas",
       "position": "Socio Fundador",
-      "email": "luiscuevas@mirai.legal",
+      "email": "cuevas@mirai.legal",
       "linkedin": "https://www.linkedin.com/in/luis-alberto-cuevas-guzm%C3%A1n-69b70519",
       "bio": "Luis ha construido una peculiar trayectoria internacional en las áreas de cumplimiento, ética corporativa y sostenibilidad. Viviendo y trabajando en Suiza, US, Panamá y Reino Unido, ha ocupado posiciones globales en empresas de las industrias farmacéutica y de consumo. Su compromiso con generar impacto social lo llevó a fundar Rethical y Brain Tonic. Reconocido por su capacidad para identificar riesgos complejos y diseñar soluciones a la necesidad del cliente, Luis es un aliado estratégico para organizaciones que buscan operar con integridad y sostenibilidad.",
       "hitosProf": [
@@ -143,23 +143,23 @@
     {
       "id": 7,
       "photo": "/teammembers/JoseRamon.webp",
-      "name": "José Ramón Yáñez",
+      "name": "José Ramón Yáñez Alegría",
       "position": "Socio",
-      "email": "",
-      "bio": "José Ramón es abogado egresado de la Universidad Latinoamericana con más de dos décadas de experiencia en litigio fiscal, comercio exterior y derecho administrativo. A lo largo de su carrera ha representado a empresas nacionales e internacionales frente a autoridades como el Servicio de Administración Tributaria (SAT), el Tribunal Federal de Justicia Administrativa y el Poder Judicial Federal, obteniendo resultados que han significado importantes ahorros y beneficios estratégicos para sus clientes.Su experiencia se extiende a diversos sectores —alimentario, bienes de higiene y cuidado personal, transportación y logística, financiero, textil y seguridad privada— donde ha liderado procesos de defensa fiscal y celebrado Acuerdos Conclusivos ante la Procuraduría de la Defensa del Contribuyente, ofreciendo soluciones efectivas y prácticas.José Ramón combina una visión preventiva y correctiva del derecho, asegurando que cada asunto se atienda con rigurosidad técnica, cercanía y atención personalizada. Su compromiso es brindar a los clientes de Mirai la certeza jurídica necesaria para enfocarse en su crecimiento y operación, sin que los temas fiscales se conviertan en un obstáculo.",
-      "hitosProf": [],
+      "email": "yanez@mirai.legal",
+      "bio": "José Ramón Yáñez Alegría es socio de Mirai Abogado con más de 20 años de trayectoria profesional, es un abogado con una destacada carrera en litigio fiscal, comercio exterior y derecho administrativo. Su práctica se centra en la representación y defensa de empresas y particulares ante las más altas instancias legales y administrativas del país. Su profundo conocimiento del litigio se refleja en la exitosa defensa de sus clientes frente a organismos clave como el Servicio de Administración Tributaria (SAT), el Tribunal Federal de Justicia Administrativa y el Poder Judicial Federal. Más allá del litigio, se distingue por su habilidad para generar significativos ahorros económicos a sus clientes a través de la negociación de Acuerdos Conclusivos ante la Procuraduría de la Defensa del Contribuyente (PRODECON). La experiencia del Lic. Yáñez abarca una amplia diversidad de sectores estratégicos, incluyendo las industrias alimentaria, de bienes de higiene y cuidado personal, logística, financiera, textil y de seguridad privada, lo que subraya su capacidad para comprender y resolver los desafíos específicos de cada negocio. Su enfoque va más allá de la mera corrección, incorporando una asesoría preventiva diseñada para blindar el patrimonio y la operación de su negocio.",
+      "hitosProf": [
+        "Reza, Rubio & Yáñez, S.C.: Socio fundador de las áreas de consultoría y litigio fiscal y de comercio exterior.",
+        "GZA Asociados, S.C. (GZA Abogados): Responsable de las áreas de consultoría y litigio en materia de comercio exterior y derecho administrativo.",
+        "Escartín, Fernández y Zavaleta, S.C.: Socio encargado de las áreas de consultoría y litigio fiscal y de comercio exterior.",
+        "Ortiz, Sosa, Ysusi y Cía., S.C.: Abogado Senior y Asociado de las áreas de consultoría y litigio fiscal y de comercio exterior.",
+        "Basham, Ringe y Correa, S.C.: Abogado en las áreas de consultoría y litigio en materia fiscal, de comercio exterior y derecho administrativo."
+      ],
       "practicas": [
         "Derecho Fiscal",
         "Comercio Exterior",
-        "Derecho Administrativo y Constitucional"
+        "Derecho Administrativo"
       ],
-      "industrias": [
-        "Alimentos y bebidas",
-        "Transportación y Logística",
-        "Bienes de higiene y cuidado personal",
-        "Industria Textil",
-        "Seguridad privada"
-      ],
+      "industrias": [],
       "footerText": "José Ramón Yáñez combina más de dos décadas de experiencia en litigio fiscal con un enfoque estratégico y personalizado, brindando a nuestros clientes la certeza jurídica necesaria para su crecimiento empresarial."
     },
     {
