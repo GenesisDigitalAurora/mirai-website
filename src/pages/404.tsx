@@ -30,7 +30,7 @@ export default function Custom404() {
       <SEOMetadata
         title="Página no encontrada - Error 404"
         description="La página que buscas no existe. Explora las secciones principales de MIRAI - Firma de abogados especializada en México."
-        url="https://mirai.com/404"
+        url="https://mirai.legal/404"
         noIndex={true}
       />
 

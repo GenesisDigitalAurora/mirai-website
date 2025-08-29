@@ -12,7 +12,7 @@ export default function ProBono() {
       <SEOMetadata
         title="Programa Pro Bono - MIRAI"
         description="Compromiso Mirai: Programa Pro Bono que apoya a organizaciones sociales, emprendedores y proyectos de impacto positivo en México con asesoría legal gratuita."
-        url="https://mirai.com/probono"
+        url="https://mirai.legal/probono"
         keywords="pro bono México, asesoría legal gratuita, organizaciones sociales, emprendedores sociales, responsabilidad social, MIRAI pro bono, apoyo legal ONGs"
       />
 

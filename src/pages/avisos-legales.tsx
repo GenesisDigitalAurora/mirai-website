@@ -9,7 +9,7 @@ export default function AvisosLegales() {
       <SEOMetadata
         title="Avisos Legales - MIRAI"
         description="Consulta nuestros avisos legales, condiciones de uso, aviso de privacidad integral y política de cookies. Transparencia y cumplimiento legal en MIRAI."
-        url="https://mirai.com/avisos-legales"
+        url="https://mirai.legal/avisos-legales"
         keywords="avisos legales MIRAI, condiciones uso, privacidad, cookies, términos legales, política privacidad México"
       />
 

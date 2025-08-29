@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://mirai.com/sitemap.xml
+Sitemap: https://mirai.legal/sitemap.xml
 
 # Páginas que no deben indexarse
 Disallow: /login

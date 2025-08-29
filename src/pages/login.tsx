@@ -10,7 +10,7 @@ export default function LoginPage() {
       <SEOMetadata
         title="Inicio de Sesión - MIRAI Abogados"
         description="Acceso seguro para clientes y socios de MIRAI. Plataforma exclusiva para consultar expedientes, documentos y servicios legales personalizados."
-        url="https://mirai.com/login"
+        url="https://mirai.legal/login"
         keywords="login MIRAI, acceso clientes, portal clientes abogados, acceso seguro, MIRAI plataforma"
         noIndex={true}
       />

@@ -216,7 +216,7 @@ export default function Home() {
       <SEOMetadata
         title="MIRAI - Firma de Abogados en México | Asesoría Legal Especializada"
         description="MIRAI es una firma de abogados líder en México, especializada en derecho corporativo, comercio exterior, propiedad intelectual y más. Asesoría legal personalizada para empresas e individuos."
-        url="https://mirai.com"
+        url="https://mirai.legal"
         keywords="abogados México, firma legal, derecho corporativo, comercio exterior, propiedad intelectual, asesoría legal, bufete abogados, legal México, MIRAI abogados"
       />
 
