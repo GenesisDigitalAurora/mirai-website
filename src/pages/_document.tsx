@@ -33,6 +33,19 @@ export default function Document() {
         {/* Verificación de dominio (actualizar con códigos reales) */}
         <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
         <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+        
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV5NDE5G5M" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NV5NDE5G5M');
+            `,
+          }}
+        />
       </Head>
       <body className="antialiased">
         <Main />
